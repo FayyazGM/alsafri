@@ -1,0 +1,12 @@
+<script src="{{ asset('assets/js/plugins/jquery-3-7-1.min.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/fontawesome.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/aos.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/counter.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/magnific-popup.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/nice-select.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/waypoints.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/sidebar.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/slick-slider.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins/swiper-slider.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
