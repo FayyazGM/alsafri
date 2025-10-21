@@ -1,0 +1,33 @@
+.error {
+    color: #f46a6a;
+}
+.parsley-error {
+    border-color: #f46a6a;
+}
+.parsley-errors-list {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+.parsley-errors-list.filled {
+    display: block;
+}
+.parsley-errors-list>li {
+    font-size: 12px;
+    list-style: none;
+    color: #f46a6a;
+    margin-top: 5px;
+}
+.app-sidebar .side-menu__label{
+    font-size: 12px !important;
+}
+.dropdown-menu{
+    box-shadow: 0 2px 4px rgba(15,34,58,.12);
+    min-width: 185px;
+}
+.font-size-14 {
+    font-size: 14px !important;
+}
+.font-size-20{
+    font-size:16px !important;
+}
