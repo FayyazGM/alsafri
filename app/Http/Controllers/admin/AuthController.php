@@ -36,7 +36,7 @@ class AuthController extends Controller
             
             $welcomeMessage = $user->user_type === 'exhibitor' 
                 ? 'Welcome to IEO Exhibitor Dashboard' 
-                : 'Welcome to IEO Admin Dashboard';
+                : 'Welcome to Alsafri Admin Dashboard';
             
             return response()->json([
                 'success' => true,

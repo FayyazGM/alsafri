@@ -10,7 +10,7 @@
         <title> Login</title>
         
         <!-- Favicon -->
-        <link rel="icon" href="{{asset('admin_assets/myimages/IEO_Logo.png')}}" type="image/x-icon">
+        <link rel="icon" href="{{asset('admin_assets/myimages/logo.png')}}" type="image/x-icon">
 
         <!-- Main Theme Js -->
         <script src="{{asset('admin_assets/authentication-main.js')}}"></script>

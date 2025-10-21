@@ -3,12 +3,12 @@
             <!-- Start::main-sidebar-header -->
             <div class="main-sidebar-header">
                 <a href="{{route('admin-dashboard')}}" class="header-logo">
-                    <img src="{{asset('admin_assets/myimages/ieo-newlogo.png')}}" alt="logo" class="desktop-logo">
-                    <img src="{{asset('admin_assets/myimages/ieo-newlogo.png')}}" alt="logo" class="toggle-dark">
-                    <img src="{{asset('admin_assets/myimages/ieo-newlogo.png')}}" alt="logo" class="desktop-dark">
-                    <img src="{{asset('admin_assets/myimages/ieo-newlogo.png')}}" alt="logo" class="toggle-logo">
-                    <img src="{{asset('admin_assets/myimages/ieo-newlogo.png')}}" alt="logo" class="toggle-white">
-                    <img src="{{asset('admin_assets/myimages/ieo-newlogo.png')}}" alt="logo"
+                    <img src="{{asset('admin_assets/myimages/logo.png')}}" alt="logo" class="desktop-logo">
+                    <img src="{{asset('admin_assets/myimages/logo.png')}}" alt="logo" class="toggle-dark">
+                    <img src="{{asset('admin_assets/myimages/logo.png')}}" alt="logo" class="desktop-dark">
+                    <img src="{{asset('admin_assets/myimages/logo.png')}}" alt="logo" class="toggle-logo">
+                    <img src="{{asset('admin_assets/myimages/logo.png')}}" alt="logo" class="toggle-white">
+                    <img src="{{asset('admin_assets/myimages/logo.png')}}" alt="logo"
                         class="desktop-white">
                 </a>
             </div>
@@ -29,103 +29,14 @@
                         <!-- Start::slide__category -->
                         <li class="slide__category"><span class="category-name">Main</span></li>
                         <!-- End::slide__category -->
-
-                        <!-- Start::slide -->
-                        @if(auth()->user()->user_type === 'exhibitor')
-                            <!-- Exhibitor Navigation -->
-                            <li class="slide">
-                                <a href="{{ route('exhibitor.dashboard') }}" class="side-menu__item">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-                                    </svg>
-                                    <span class="side-menu__label">Dashboard</span>
-                                </a>
-                            </li>
-                            <li class="slide">
-                                <a href="{{ route('admin.media.index') }}" class="side-menu__item">
-                                    <i class="uil uil-video w-6 h-6 side-menu__icon"></i>
-                                    <span class="side-menu__label">Media Management</span>
-                                </a>
-                            </li>
-                            <li class="slide">
-                                <a href="{{ route('admin.staff.index') }}" class="side-menu__item">
-                                    <i class="uil uil-users-alt w-6 h-6 side-menu__icon"></i>
-                                    <span class="side-menu__label">Staff Management</span>
-                                </a>
-                            </li>
-                            <li class="slide">
-                                <a href="{{ route('admin.appointments.index') }}" class="side-menu__item">
-                                    <i class="uil uil-calendar-alt w-6 h-6 side-menu__icon"></i>
-                                    <span class="side-menu__label">Appointment Management</span>
-                                </a>
-                            </li>
-                            <li class="slide">
-                                <a href="{{ route('admin.exhibitor-reports.index') }}" class="side-menu__item">
-                                    <i class="uil uil-chart-bar w-6 h-6 side-menu__icon"></i>
-                                    <span class="side-menu__label">Reports</span>
-                                </a>
-                            </li>
-                        @else
-                            <!-- Admin Navigation -->
-                            <li class="slide">
-                                <a href="{{ route('admin-dashboard') }}" class="side-menu__item">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-                                    </svg>
-                                    <span class="side-menu__label">Dashboard</span>
-                                </a>
-                            </li>
-                            <li class="slide">
-                                <a href="{{route('scan-qrcode')}}" class="side-menu__item">
-                                    <i class="uil uil-qrcode-scan w-6 h-6 side-menu__icon"></i>
-                                    <span class="side-menu__label">Scan Qrcode</span>
-                                </a>
-                            </li>
-                            <li class="slide">
-                                <a href="{{route('events-view')}}" class="side-menu__item">
-                                    <i class="uil uil-schedule w-6 h-6 side-menu__icon"></i>
-                                    <span class="side-menu__label">Manage Events</span>
-                                </a>
-                            </li>
-                            <li class="slide">
-                                <a href="{{route('import-attendees-form')}}" class="side-menu__item">
-                                    <i class="uil uil-import w-6 h-6 side-menu__icon"></i>
-                                    <span class="side-menu__label">Import Attendees</span>
-                                </a>
-                            </li>
-                            <li class="slide">
-                                <a href="{{route('manage-users')}}" class="side-menu__item">
-                                    <i class="uil uil-users-alt  w-6 h-6 side-menu__icon"></i>
-                                    <span class="side-menu__label">Manage Users</span>
-                                </a>
-                            </li>
-                            <li class="slide">
-                                <a href="javascript:void(0);" class="side-menu__item" data-bs-toggle="modal" data-bs-target="#generateReportModal">
-                                    <i class="uil uil-chart-bar w-6 h-6 side-menu__icon"></i>
-                                    <span class="side-menu__label">Generate Report</span>
-                                </a>
-                            </li>
-                            <li class="slide">
-                                <a href="{{ route('admin.reports.attendees') }}" class="side-menu__item">
-                                    <i class="uil uil-users-alt w-6 h-6 side-menu__icon"></i>
-                                    <span class="side-menu__label">Generate Attendees Report</span>
-                                </a>
-                            </li>
-                            <li class="slide">
-                                <a href="{{ route('admin.email-attendees') }}" class="side-menu__item">
-                                    <i class="uil uil-envelope w-6 h-6 side-menu__icon"></i>
-                                    <span class="side-menu__label">Email Attendees</span>
-                                </a>
-                            </li>
-                            <li class="slide">
-                                <a href="{{ route('admin.whatsapp-attendees') }}" class="side-menu__item">
-                                    <i class="ri-whatsapp-line w-6 h-6 side-menu__icon"></i>
-                                    <span class="side-menu__label">WhatsApp Attendees</span>
-                                </a>
-                            </li>
-                        @endif
-                        
-                        <!-- Common Navigation for all users -->
+                        <li class="slide">
+                            <a href="{{ route('admin-dashboard') }}" class="side-menu__item">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                                </svg>
+                                <span class="side-menu__label">Dashboard</span>
+                            </a>
+                        </li>
                         <li class="slide">
                             <a href="{{route('admin.profile.index')}}" class="side-menu__item">
                                 <i class="uil uil-user w-6 h-6 side-menu__icon"></i>
