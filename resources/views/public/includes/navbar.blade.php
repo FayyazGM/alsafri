@@ -4,137 +4,31 @@
             <div class="row align-items-center">
                 <div class="col-xl-2 col-md-6 col-6">
                     <div class="vl-logo">
-                        <a href="index.html"><img src="{{ asset('assets/img/logo/logo1.png') }}" alt=""></a>
+                        <a href="{{ route('home') }}"><img src="{{ asset('admin_assets/myimages/logo.png') }}" alt="" style="height: 75px;
+                          border-radius: 7px;
+                          background: #fff;
+                          width: auto;" ></a>
                     </div>
                 </div>
                 <div class="col-xl-7 d-none d-xl-block">
                     <div class="vl-main-menu text-center">
                         <nav class="vl-mobile-menu-active">
                             <ul>
-                                <li class="has-dropdown">
-                                    <a href="#">Home <span><i class="fa-solid fa-angle-down d-xl-inline d-none"></i></span></a>
-                                    <div class="vl-mega-menu">
-                                        <div class="vl-home-menu">                    
-                                            <div class="row gx-3 row-cols-1 row-cols-md-1 row-cols-xl-5">
-                                                <div class="col">
-                                                        <div class="vl-home-thumb">
-                                                            <div class="img1">
-                                                              <img src="{{ asset('assets/img/all-images/demo/demo-img1.png') }}" alt="">
-                                                            </div>
-                                                           <a href="index.html">Voltz  - Homepage 01</a>
-                                                           <div class="btn-area1">
-                                                            <a href="index.html" class="vl-btn1">View Demo <i class="fa-solid fa-arrow-right"></i></a>
-  
-                                                           </div>
-                                                           <div class="space20 d-lg-none d-block"></div>
-                                                        </div>
-                                                </div>
-                                                <div class="col">
-                                                        <div class="vl-home-thumb">
-                                                          <div class="img1">
-                                                            <img src="{{ asset('assets/img/all-images/demo/demo-img2.png') }}" alt="">
-                                                          </div>
-                                                          <a href="index2.html">Voltz  - Homepage 02</a>
-                                                          <div class="btn-area1">
-                                                            <a href="index2.html" class="vl-btn1">View Demo <i class="fa-solid fa-arrow-right"></i></a>
-  
-                                                           </div>
-                                                          <div class="space20 d-lg-none d-block"></div>
-                                                        </div>
-                                                </div>
-                                                <div class="col ">
-                                                        <div class="vl-home-thumb">
-                                                          <div class="img1">
-                                                            <img src="{{ asset('assets/img/all-images/demo/demo-img3.png') }}" alt="">
-                                                          </div>
-                                                          <a href="index3.html">Voltz  - Homepage 03</a>
-                                                          <div class="btn-area1">
-                                                            <a href="index3.html" class="vl-btn1">View Demo <i class="fa-solid fa-arrow-right"></i></a>
-  
-                                                           </div>
-                                                          <div class="space20 d-lg-none d-block"></div>
-                                                        </div>
-                                                </div>
-                                                <div class="col ">
-                                                        <div class="vl-home-thumb">
-                                                          <div class="img1">
-                                                            <img src="{{ asset('assets/img/all-images/demo/demo-img4.png') }}" alt="">
-                                                          </div>
-                                                          <a href="index4.html">Voltz  - Homepage 04</a>
-                                                          <div class="btn-area1">
-                                                            <a href="index4.html" class="vl-btn1">View Demo <i class="fa-solid fa-arrow-right"></i></a>
-  
-                                                           </div>
-                                                          <div class="space20 d-lg-none d-block"></div>
-                                                        </div>
-                                                </div>
-  
-                                                <div class="col ">
-                                                      <div class="vl-home-thumb">
-                                                        <div class="img1">
-                                                          <img src="{{ asset('assets/img/all-images/demo/demo-img5.png') }}" alt="">
-                                                        </div>
-                                                        <a href="index5.html">Voltz  - Homepage 05</a>
-                                                        <div class="btn-area1">
-                                                          <a href="index5.html" class="vl-btn1">View Demo <i class="fa-solid fa-arrow-right"></i></a>
-                                                         </div>
-                                                      </div>
-                                              </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <li>
+                                    <a href="{{route('home')}}">Home </a>
                                 </li>
-                                <li class="has-dropdown">
-                                  <a href="#">Pages <span><i class="fa-solid fa-angle-down d-xl-inline d-none"></i></span></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="team.html">Our Team</a></li>
-                                        <li><a href="team-single.html">Team Single</a></li>
-                                        <li><a href="pricing.html">Pricing Plan</a></li>
-                                       <li><a href="testimonial.html">Testimonials 01</a></li>
-                                        <li><a href="testimonial2.html">Testimonials 02</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
-                                        <li><a href="faq.html">FAQ's</a></li>
-                                        <li><a href="404.html">404</a></li>
-                                    </ul>
+                                <li>
+                                    <a href="#">About </a>
                                 </li>
-                                <li><a href="#">Services <span><i class="fa-solid fa-angle-down d-xl-inline d-none"></i></span></a>
-                                  <ul class="sub-menu">
-                                    <li><a href="service.html">Our Service</a></li>
-                                    <li><a href="#" class="span-arrow">Service Details <span><i class="fa-solid fa-angle-right d-lg-block d-none"></i></span></a>
-                                      <ul class="sub-menu menu1">
-                                        <li><a href="service-left.html">Service Left</a></li>
-                                        <li><a href="service-right.html">Service Right</a></li>
-                                        <li><a href="service-single.html">Service Single</a></li>
-                                      </ul>
-                                    </li>
-                                </ul>
+                                <li>
+                                    <a href="#">Services </a>
                                 </li>
-                                <li><a href="#">Projects <span><i class="fa-solid fa-angle-down d-xl-inline d-none"></i></span></a>
-                                  <ul class="sub-menu">
-                                    <li><a href="project.html">Our Projects</a></li>
-                                    <li><a href="#" class="span-arrow">Projects Details <span><i class="fa-solid fa-angle-right d-lg-block d-none"></i></span></a>
-                                      <ul class="sub-menu menu1">
-                                        <li><a href="project-left.html">Projects Left</a></li>
-                                        <li><a href="project-right.html">Projects Right</a></li>
-                                        <li><a href="project-single.html">Projects Single</a></li>
-                                    </ul>
-                                    </li>
-                                </ul>
-                                </li>
-                                <li><a href="#">Blogs <span><i class="fa-solid fa-angle-down d-xl-inline d-none"></i></span></a>
-                                  <ul class="sub-menu">
-                                    <li><a href="blog.html">Blog Grid 03</a></li>
-                                    <li><a href="blog2.html">Blog Grid 02</a></li>
-                                    <li><a href="#" class="span-arrow">Blog Details <span><i class="fa-solid fa-angle-right d-lg-block d-none"></i></span></a>
-                                      <ul class="sub-menu menu1">
-                                        <li><a href="blog-left.html">Blog Left</a></li>
-                                        <li><a href="blog-right.html">Blog Right</a></li>
-                                        <li><a href="blog-single.html">Blog Single</a></li>
-                                    </ul>
-                                    </li>
-                                </ul>
-                                </li>
+                                <li>
+                                  <a href="#">Projects </a>
+                              </li>
+                              <li>
+                                <a href="#">Gallery </a>
+                            </li>
                             </ul>
                         </nav>
                     </div>
