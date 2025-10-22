@@ -24,6 +24,11 @@ use App\Http\Controllers\admin\ProfileController;
 */
 
 Route::get('/', [PagesController::class , 'home'])->name('home');
+Route::get('/about', [PagesController::class , 'about'])->name('about');
+Route::get('/services', [PagesController::class , 'services'])->name('services');
+Route::get('/projects', [PagesController::class , 'projects'])->name('projects');
+Route::get('/gallery', [PagesController::class , 'gallery'])->name('gallery');
+Route::get('/contact', [PagesController::class , 'contact'])->name('contact');
 // Admin Routes
 Route::prefix('admin')->group(function () {
     Route::get('/', [AuthController::class , 'login'])->name('admin-login');

@@ -18,16 +18,16 @@
                                     <a href="{{route('home')}}">Home </a>
                                 </li>
                                 <li>
-                                    <a href="#">About </a>
+                                    <a href="{{route('about')}}">About </a>
                                 </li>
                                 <li>
-                                    <a href="#">Services </a>
+                                    <a href="{{route('services')}}">Services </a>
                                 </li>
                                 <li>
-                                  <a href="#">Projects </a>
+                                  <a href="{{route('projects')}}">Projects </a>
                               </li>
                               <li>
-                                <a href="#">Gallery </a>
+                                <a href="{{route('gallery')}}">Gallery </a>
                             </li>
                             </ul>
                         </nav>
@@ -45,7 +45,7 @@
                       <path d="M3.33301 8H24.6663M3.33301 16H24.6663M3.33301 24H12.6663" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg></button>
                       <div class="btn_area1">
-                        <a href="contact.html" class="vl-btn1">Get A Quote <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="{{route('contact')}}" class="vl-btn1">Get A Quote <i class="fa-solid fa-arrow-right"></i></a>
                       </div>
                     </div>
                   </div>

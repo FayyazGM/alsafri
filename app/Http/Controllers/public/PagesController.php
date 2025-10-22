@@ -22,4 +22,24 @@ class PagesController extends Controller
     {
         return view('public.index');
     }
+    public function about()
+    {
+        return view('public.about');
+    }
+    public function services()
+    {
+        return view('public.services');
+    }
+    public function projects()
+    {
+        return view('public.projects');
+    }
+    public function gallery()
+    {
+        return view('public.gallery');
+    }
+    public function contact()
+    {
+        return view('public.contact');
+    }
 }

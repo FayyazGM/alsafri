@@ -1,5 +1,7 @@
 @extends('public.layout')
 
+@section('title', 'Alsafri - السفري')
+
 @section('content')
 <!--===== HERO AREA STARTS =======-->
 <div class="hero-main-section-area5">
