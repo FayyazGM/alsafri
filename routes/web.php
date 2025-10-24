@@ -9,6 +9,7 @@ use App\Http\Controllers\admin\EmailController;
 use App\Http\Controllers\admin\WhatsAppController;
 use App\Http\Controllers\admin\ContactMessagesController;
 use App\Http\Controllers\admin\EmailSubscriptionsController;
+use App\Http\Controllers\admin\GalleryController;
 use App\Http\Controllers\public\PagesController;
 use App\Http\Controllers\SubscriptionController;
 use App\Http\Controllers\ContactController;
@@ -60,6 +61,12 @@ Route::prefix('admin')->group(function () {
         
         // Email Subscriptions Management
         Route::get('/email-subscriptions', [EmailSubscriptionsController::class, 'index'])->name('admin.email-subscriptions')->middleware('admin.only');
+        
+        // Gallery Management
+        Route::get('/gallery', [GalleryController::class, 'index'])->name('admin.gallery')->middleware('admin.only');
+        Route::post('/gallery', [GalleryController::class, 'store'])->name('admin.gallery.store')->middleware('admin.only');
+        Route::post('/gallery/{id}', [GalleryController::class, 'update'])->name('admin.gallery.update')->middleware('admin.only');
+        Route::delete('/gallery/{id}', [GalleryController::class, 'destroy'])->name('admin.gallery.destroy')->middleware('admin.only');
     });
  
 });

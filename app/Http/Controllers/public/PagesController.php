@@ -9,6 +9,7 @@ use App\Models\EventAttendee;
 use App\Models\EventGallery;
 use App\Models\ExhibitorMedia;
 use App\Models\Staff;
+use App\Models\GalleryImage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use SimpleSoftwareIO\QrCode\Facades\QrCode;
@@ -36,7 +37,10 @@ class PagesController extends Controller
     }
     public function gallery()
     {
-        return view('public.gallery');
+        $galleryImages = GalleryImage::active()->ordered()->paginate(9);
+        $categories = GalleryImage::active()->distinct()->pluck('category')->toArray();
+        
+        return view('public.gallery', compact('galleryImages', 'categories'));
     }
     public function contact()
     {

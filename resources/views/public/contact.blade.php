@@ -9,7 +9,7 @@
                 <div class="heading1">
                     <h1>Contact Us</h1>
                     <div class="space16"></div>
-                    <a href="index.html">Home <i class="fa-solid fa-angle-right"></i> <span>Contact Us</span></a>
+                    <a href="{{route('home')}}">Home <i class="fa-solid fa-angle-right"></i> <span>Contact Us</span></a>
                 </div>
             </div>
 
