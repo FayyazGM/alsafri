@@ -102,43 +102,46 @@
                     <p data-aos="fade-left" data-aos-duration="1100">We're here to support you every step of the way. Whether you have questions about our steel fabrication services, need assistance with elevator cladding projects, or want to discuss your custom fabrication requirements.</p>
                     <div class="space12"></div>
                     <div class="contact-boxarea" data-aos="fade-left" data-aos-duration="1200">
-                        <div class="row">
-                            <div class="col-xl-6 col-md-6">
-                                <div class="input-area">
-                                    <input type="text" placeholder="Full Name">
+                        <form id="contact-form">
+                            <div class="row">
+                                <div class="col-xl-6 col-md-6">
+                                    <div class="input-area">
+                                        <input type="text" name="name" id="contact-name" placeholder="Full Name" required>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-xl-6 col-md-6">
-                                <div class="input-area">
-                                    <input type="email" placeholder="Email">
+                                <div class="col-xl-6 col-md-6">
+                                    <div class="input-area">
+                                        <input type="email" name="email" id="contact-email" placeholder="Email" required>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-xl-12 col-md-12">
-                                <div class="input-area">
-                                    <select name="country" id="country" class="country-area nice-select">
-                                        <option value="1" data-display="Subject?">Subject</option>
-                                        <option value=""> Elevator & Escalator Cladding</option>
-                                        <option value=""> Steel Fabrication & Structures</option>
-                                        <option value=""> Water Tanks & Custom Fabrication</option>
-                                        <option value=""> Steel Brackets & Accessories</option>
-                                        <option value=""> General Fabrication Jobs</option>
-                                      </select>
+                                <div class="col-xl-12 col-md-12">
+                                    <div class="input-area">
+                                        <select name="subject" id="contact-subject" class="country-area nice-select">
+                                            <option value="" data-display="Subject?">Subject</option>
+                                            <option value="Elevator & Escalator Cladding">Elevator & Escalator Cladding</option>
+                                            <option value="Steel Fabrication & Structures">Steel Fabrication & Structures</option>
+                                            <option value="Water Tanks & Custom Fabrication">Water Tanks & Custom Fabrication</option>
+                                            <option value="Steel Brackets & Accessories">Steel Brackets & Accessories</option>
+                                            <option value="General Fabrication Jobs">General Fabrication Jobs</option>
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-xl-12 col-md-12">
-                                <div class="input-area">
-                                    <textarea placeholder="How can we help you?"></textarea>
+                                <div class="col-xl-12 col-md-12">
+                                    <div class="input-area">
+                                        <textarea name="message" id="contact-message" placeholder="How can we help you?" required></textarea>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-xl-12 col-md-12">
-                                <div class="input-area">
-                                    <button type="submit" class="vl-btn1">Send Now <i class="fa-solid fa-arrow-right"></i></button>
+                                <div class="col-xl-12 col-md-12">
+                                    <div class="input-area">
+                                        <button type="submit" class="vl-btn1">Send Now <i class="fa-solid fa-arrow-right"></i></button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </form>
+                        <div id="contact-message-alert" style="margin-top: 15px; display: none;"></div>
                     </div>
                 </div>
             </div>

@@ -479,6 +479,71 @@ $('#subscription-form').on('submit', function(e) {
 });
 //========== SUBSCRIPTION FORM AJAX ENDS ============= //
 
+//========== CONTACT FORM AJAX ============= //
+$('#contact-form').on('submit', function(e) {
+    e.preventDefault();
+    
+    var form = $(this);
+    var submitBtn = form.find('button[type="submit"]');
+    var messageDiv = $('#contact-message-alert');
+    var originalBtnText = submitBtn.html();
+    
+    // Change button text to sending
+    submitBtn.html('Sending...');
+    submitBtn.prop('disabled', true);
+    
+    // Hide previous messages
+    messageDiv.hide();
+    
+    $.ajax({
+        url: form.data('url') || '/contact',
+        type: 'POST',
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        },
+        data: {
+            name: $('#contact-name').val(),
+            email: $('#contact-email').val(),
+            subject: $('#contact-subject').val(),
+            message: $('#contact-message').val()
+        },
+        success: function(response) {
+            if (response.success) {
+                messageDiv.html('<div class="alert alert-success alert-dismissible fade show" role="alert">' + 
+                    response.message + 
+                    '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>' +
+                    '</div>').show();
+                form[0].reset();
+                // Reset nice-select if it exists
+                if ($('#contact-subject').hasClass('nice-select')) {
+                    $('#contact-subject').niceSelect('update');
+                }
+            } else {
+                messageDiv.html('<div class="alert alert-danger alert-dismissible fade show" role="alert">' + 
+                    response.message + 
+                    '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>' +
+                    '</div>').show();
+            }
+        },
+        error: function(xhr) {
+            var errorMessage = 'Something went wrong. Please try again later.';
+            if (xhr.responseJSON && xhr.responseJSON.message) {
+                errorMessage = xhr.responseJSON.message;
+            }
+            messageDiv.html('<div class="alert alert-danger alert-dismissible fade show" role="alert">' + 
+                errorMessage + 
+                '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>' +
+                '</div>').show();
+        },
+        complete: function() {
+            // Restore button state
+            submitBtn.html(originalBtnText);
+            submitBtn.prop('disabled', false);
+        }
+    });
+});
+//========== CONTACT FORM AJAX ENDS ============= //
+
 })(jQuery);
 
 // SWIPER SLIDER //

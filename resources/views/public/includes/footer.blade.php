@@ -108,12 +108,12 @@
       </div>
       <div class="space60"></div>
       <div class="col-xl-12">
-        <div class="copyright-area">
-          <a href="#">Â© 2025 Alsafri. All Rights Reserved.</a>
-          <ul>
+        <div class="copyright-area text-center">
+          <a href="#" class="d-block">© 2025 Alsafri. All Rights Reserved.</a>
+          {{-- <ul>
             <li><a href="#">Privacy Policy</a><span> | </span></li>
             <li><a href="#">Terms Of Condition</a></li>
-          </ul>
+          </ul> --}}
         </div>
       </div>
     </div>
