@@ -9,7 +9,7 @@
                 <div class="heading1">
                     <h1>Our Services</h1>
                     <div class="space16"></div>
-                    <a href="index.html">Home <i class="fa-solid fa-angle-right"></i> <span>Our Services</span></a>
+                    <a href="{{ route('home') }}">Home <i class="fa-solid fa-angle-right"></i> <span>Our Services</span></a>
                 </div>
             </div>
 
@@ -38,11 +38,11 @@
           </div>
           <div class="space16"></div>
           <div class="content-area">
-            <a href="service-single.html" class="title">Elevator & Escalator Cladding Services</a>
+            <a href="{{ route('contact') }}" class="title">Elevator & Escalator Cladding Services</a>
             <div class="space16"></div>
             <p>We specialize in stainless steel cladding of escalators and elevators, dismantling and installation services, and accessories for elevators across Saudi Arabia.</p>
             <div class="space24"></div>
-            <a href="service-single.html" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="{{ route('contact') }}" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -55,11 +55,11 @@
           </div>
           <div class="space16"></div>
           <div class="content-area">
-            <a href="service-single.html" class="title">Steel Fabrication & Structures</a>
+            <a href="{{ route('contact') }}" class="title">Steel Fabrication & Structures</a>
             <div class="space16"></div>
             <p>We provide comprehensive steel fabrication services including mild steel structures, handrails for staircases, sliding gates, and custom fabrication jobs as per client specifications.</p>
             <div class="space24"></div>
-            <a href="service-single.html" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="{{ route('contact') }}" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -72,11 +72,11 @@
           </div>
           <div class="space16"></div>
           <div class="content-area">
-            <a href="service-single.html" class="title">Water Tanks & Custom Fabrication</a>
+            <a href="{{ route('contact') }}" class="title">Water Tanks & Custom Fabrication</a>
             <div class="space16"></div>
             <p>We specialize in stainless steel and mild steel water tanks, custom fabrication jobs, and supply of raw materials including angles, tubes, and steel sheets.</p>
             <div class="space24"></div>
-            <a href="service-single.html" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="{{ route('contact') }}" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -89,11 +89,11 @@
           </div>
           <div class="space16"></div>
           <div class="content-area">
-            <a href="service-single.html" class="title">Commercial & Residential Electrical Services</a>
+            <a href="{{ route('contact') }}" class="title">Commercial & Residential Electrical Services</a>
             <div class="space16"></div>
             <p>We provide personalized energy solutions for homeowners, businesses, & industries ensuring that you have the most efficient.</p>
             <div class="space24"></div>
-            <a href="service-single.html" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="{{ route('contact') }}" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -106,11 +106,11 @@
           </div>
           <div class="space16"></div>
           <div class="content-area">
-            <a href="service-single.html" class="title">Comprehensive Energy Solutions for Every Need</a>
+            <a href="{{ route('contact') }}" class="title">Comprehensive Energy Solutions for Every Need</a>
             <div class="space16"></div>
             <p>VOLTZ provides custom energy solutions that enhance efficiency, lower costs, and promote sustainability.</p>
             <div class="space24"></div>
-            <a href="service-single.html" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="{{ route('contact') }}" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -123,11 +123,11 @@
           </div>
           <div class="space16"></div>
           <div class="content-area">
-            <a href="service-single.html" class="title">Sustainable Energy Financing & Consulting</a>
+            <a href="{{ route('contact') }}" class="title">Sustainable Energy Financing & Consulting</a>
             <div class="space16"></div>
             <p>With rising energy costs and increasing demand for sustainability, VOLTZ is here to help you take control of your energy.</p>
             <div class="space24"></div>
-            <a href="service-single.html" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="{{ route('contact') }}" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -139,11 +139,11 @@
           </div>
           <div class="space16"></div>
           <div class="content-area">
-            <a href="service-single.html" class="title">Commercial & Residential Electrical Services</a>
+            <a href="{{ route('contact') }}" class="title">Commercial & Residential Electrical Services</a>
             <div class="space16"></div>
             <p>We provide personalized energy solutions for homeowners, businesses, & industries ensuring that you have the most efficient.</p>
             <div class="space24"></div>
-            <a href="service-single.html" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="{{ route('contact') }}" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -156,11 +156,11 @@
           </div>
           <div class="space16"></div>
           <div class="content-area">
-            <a href="service-single.html" class="title">Comprehensive Energy Solutions for Every Need</a>
+            <a href="{{ route('contact') }}" class="title">Comprehensive Energy Solutions for Every Need</a>
             <div class="space16"></div>
             <p>VOLTZ provides custom energy solutions that enhance efficiency, lower costs, and promote sustainability.</p>
             <div class="space24"></div>
-            <a href="service-single.html" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="{{ route('contact') }}" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -173,11 +173,11 @@
           </div>
           <div class="space16"></div>
           <div class="content-area">
-            <a href="service-single.html" class="title">Sustainable Energy Financing & Consulting</a>
+            <a href="{{ route('contact') }}" class="title">Sustainable Energy Financing & Consulting</a>
             <div class="space16"></div>
             <p>With rising energy costs and increasing demand for sustainability, VOLTZ is here to help you take control of your energy.</p>
             <div class="space24"></div>
-            <a href="service-single.html" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="{{ route('contact') }}" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>

@@ -10,6 +10,7 @@ use App\Http\Controllers\admin\WhatsAppController;
 use App\Http\Controllers\admin\ContactMessagesController;
 use App\Http\Controllers\admin\EmailSubscriptionsController;
 use App\Http\Controllers\admin\GalleryController;
+use App\Http\Controllers\admin\ProjectController;
 use App\Http\Controllers\public\PagesController;
 use App\Http\Controllers\SubscriptionController;
 use App\Http\Controllers\ContactController;
@@ -32,6 +33,7 @@ Route::get('/', [PagesController::class , 'home'])->name('home');
 Route::get('/about', [PagesController::class , 'about'])->name('about');
 Route::get('/services', [PagesController::class , 'services'])->name('services');
 Route::get('/projects', [PagesController::class , 'projects'])->name('projects');
+Route::get('/project/{slug}', [PagesController::class, 'projectDetail'])->name('project-detail');
 Route::get('/gallery', [PagesController::class , 'gallery'])->name('gallery');
 Route::get('/contact', [PagesController::class , 'contact'])->name('contact');
 
@@ -67,6 +69,12 @@ Route::prefix('admin')->group(function () {
         Route::post('/gallery', [GalleryController::class, 'store'])->name('admin.gallery.store')->middleware('admin.only');
         Route::post('/gallery/{id}', [GalleryController::class, 'update'])->name('admin.gallery.update')->middleware('admin.only');
         Route::delete('/gallery/{id}', [GalleryController::class, 'destroy'])->name('admin.gallery.destroy')->middleware('admin.only');
+
+        // Project Management
+        Route::get('/projects', [ProjectController::class, 'index'])->name('admin.projects')->middleware('admin.only');
+        Route::post('/projects', [ProjectController::class, 'store'])->name('admin.projects.store')->middleware('admin.only');
+        Route::post('/projects/{id}', [ProjectController::class, 'update'])->name('admin.projects.update')->middleware('admin.only');
+        Route::delete('/projects/{id}', [ProjectController::class, 'destroy'])->name('admin.projects.destroy')->middleware('admin.only');
     });
  
 });

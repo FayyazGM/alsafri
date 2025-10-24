@@ -10,6 +10,7 @@ use App\Models\EventGallery;
 use App\Models\ExhibitorMedia;
 use App\Models\Staff;
 use App\Models\GalleryImage;
+use App\Models\Project;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use SimpleSoftwareIO\QrCode\Facades\QrCode;
@@ -33,7 +34,18 @@ class PagesController extends Controller
     }
     public function projects()
     {
-        return view('public.projects');
+        $projects = Project::active()->ordered()->paginate(9);
+        $categories = Project::getCategories();
+        
+        return view('public.projects', compact('projects', 'categories'));
+    }
+
+    public function projectDetail($slug)
+    {
+        $project = Project::active()->where('slug', $slug)->firstOrFail();
+        $relatedProjects = $project->getRelatedProjects(3);
+        
+        return view('public.project-detail', compact('project', 'relatedProjects'));
     }
     public function gallery()
     {

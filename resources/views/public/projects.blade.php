@@ -9,7 +9,7 @@
                 <div class="heading1">
                     <h1>Our Major Projects</h1>
                     <div class="space16"></div>
-                    <a href="index.html">Home <i class="fa-solid fa-angle-right"></i> <span>Projects</span></a>
+                    <a href="{{ route('home') }}">Home <i class="fa-solid fa-angle-right"></i> <span>Projects</span></a>
                 </div>
             </div>
 
@@ -30,189 +30,37 @@
 <div class="project-inner-area sp1">
     <div class="container">
         <div class="row">
+            @forelse($projects as $project)
             <div class="col-xl-4 col-md-6">
                 <div class="projects-boxes-area">
                     <div class="img1">
-                    <img src="{{ asset('assets/img/all-images/projects/p-img1.png') }}" alt="">
+                            <img src="{{ $project->featured_image_url }}" alt="{{ $project->title }}">
                     </div>
                     <div class="contain-main-area">
                     <div class="content-p-area">
-                    <span>Haram Makkah Projects</span>
+                                <span>{{ $project->category }}</span>
                     <div class="space12"></div>
-                    <a href="project-single.html" class="title">Escalator Cladding & Elevator Solutions</a>
+                                <a href="{{ route('project-detail', $project->slug) }}" class="title">{{ $project->title }}</a>
                     </div>
                     <div class="arrow">
-                    <a href="project-single.html"><i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="{{ route('project-detail', $project->slug) }}"><i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
                     </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-xl-4 col-md-6">
-                <div class="projects-boxes-area">
-                    <div class="img1">
-                    <img src="{{ asset('assets/img/all-images/projects/p-img2.png') }}" alt="">
-                    </div>
-                    <div class="contain-main-area">
-                    <div class="content-p-area">
-                    <span>Major Shopping Malls</span>
-                    <div class="space12"></div>
-                    <a href="project-single.html" class="title">Elevator Cabin & Door Cladding</a>
-                    </div>
-                    <div class="arrow">
-                    <a href="project-single.html"><i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                    </div>
+            @empty
+                <div class="col-12 text-center">
+                    <p>No projects available at the moment.</p>
                 </div>
-            </div>
+            @endforelse
 
-            <div class="col-xl-4 col-md-6">
-                <div class="projects-boxes-area">
-                    <div class="img1">
-                    <img src="{{ asset('assets/img/all-images/projects/p-img3.png') }}" alt="">
-                    </div>
-                    <div class="contain-main-area">
-                    <div class="content-p-area">
-                    <span>Universities & Hospitals</span>
-                    <div class="space12"></div>
-                    <a href="project-single.html" class="title">Steel Structures & Handrails</a>
-                    </div>
-                    <div class="arrow">
-                    <a href="project-single.html"><i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                    </div>
-                </div>
-            </div>
+        </div>
 
-            <div class="col-xl-4 col-md-6">
-                <div class="projects-boxes-area">
-                    <div class="img1">
-                    <img src="{{ asset('assets/img/all-images/projects/p-img4.png') }}" alt="">
-                    </div>
-                    <div class="contain-main-area">
-                    <div class="content-p-area">
-                    <span>Commercial Buildings</span>
-                    <div class="space12"></div>
-                    <a href="project-single.html" class="title">Water Tanks & Custom Fabrication</a>
-                    </div>
-                    <div class="arrow">
-                    <a href="project-single.html"><i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-md-6">
-                <div class="projects-boxes-area">
-                    <div class="img1">
-                    <img src="{{ asset('assets/img/all-images/projects/p-img5.png') }}" alt="">
-                    </div>
-                    <div class="contain-main-area">
-                    <div class="content-p-area">
-                    <span>Industrial Projects</span>
-                    <div class="space12"></div>
-                    <a href="project-single.html" class="title">Steel Brackets & Accessories</a>
-                    </div>
-                    <div class="arrow">
-                    <a href="project-single.html"><i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-md-6">
-                <div class="projects-boxes-area">
-                    <div class="img1">
-                    <img src="{{ asset('assets/img/all-images/projects/p-img6.png') }}" alt="">
-                    </div>
-                    <div class="contain-main-area">
-                    <div class="content-p-area">
-                    <span>Power Plants</span>
-                    <div class="space12"></div>
-                    <a href="project-single.html" class="title">Stainless Steel Fabrication</a>
-                    </div>
-                    <div class="arrow">
-                    <a href="project-single.html"><i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-md-6">
-                <div class="projects-boxes-area">
-                    <div class="img1">
-                    <img src="{{ asset('assets/img/all-images/projects/p-img7.png') }}" alt="">
-                    </div>
-                    <div class="contain-main-area">
-                    <div class="content-p-area">
-                    <span>Edge energy solutions</span>
-                    <div class="space12"></div>
-                    <a href="project-single.html" class="title">Projects Content voltz</a>
-                    </div>
-                    <div class="arrow">
-                    <a href="project-single.html"><i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-md-6">
-                <div class="projects-boxes-area">
-                    <div class="img1">
-                    <img src="{{ asset('assets/img/all-images/projects/p-img8.png') }}" alt="">
-                    </div>
-                    <div class="contain-main-area">
-                    <div class="content-p-area">
-                    <span>Edge energy solutions</span>
-                    <div class="space12"></div>
-                    <a href="project-single.html" class="title">Projects Content voltz</a>
-                    </div>
-                    <div class="arrow">
-                    <a href="project-single.html"><i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-md-6">
-                <div class="projects-boxes-area">
-                    <div class="img1">
-                    <img src="{{ asset('assets/img/all-images/projects/p-img9.png') }}" alt="">
-                    </div>
-                    <div class="contain-main-area">
-                    <div class="content-p-area">
-                    <span>Edge energy solutions</span>
-                    <div class="space12"></div>
-                    <a href="project-single.html" class="title">Projects Content voltz</a>
-                    </div>
-                    <div class="arrow">
-                    <a href="project-single.html"><i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-12">
+        <!-- Pagination -->
+        <div class="col-xl-12">
             <div class="space18"></div>
             <div class="pagination-area">
-                <nav aria-label="Page navigation example">
-                    <ul class="pagination">
-                      <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                            <i class="fa-solid fa-angle-left"></i>
-                        </a>
-                      </li>
-                      <li class="page-item"><a class="page-link active" href="#">1</a></li>
-                      <li class="page-item"><a class="page-link" href="#">2</a></li>
-                      <li class="page-item"><a class="page-link" href="#">...</a></li>
-                      <li class="page-item"><a class="page-link" href="#">12</a></li>
-                      <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <i class="fa-solid fa-angle-right"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </nav>
+                {{ $projects->links() }}
             </div>
         </div>
         </div>

@@ -2,7 +2,7 @@
     <div class="slide-bar slide-bar1">
       <div class="sidebar-info">
            <div class="sidebar-logo">
-                <a href="index.html">
+                <a href="{{ route('home') }}">
                      <img src="{{ asset('assets/img/logo/logo1.png') }}" alt="logo">
                 </a>
                 <div class="close-mobile-menu">
@@ -15,7 +15,7 @@
            </div>
            <div class="space32"></div>
            <div class="btn-area">
-                <a href="contact.html" class="vl-btn1">Get in touch now <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="{{ route('contact') }}" class="vl-btn1">Get in touch now <i class="fa-solid fa-arrow-right"></i></a>
            </div>
            <div class="space40"></div>
            <div class="social-link-area">

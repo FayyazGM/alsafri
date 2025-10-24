@@ -9,7 +9,7 @@
                 <div class="heading1">
                     <h1>About Alsafri</h1>
                     <div class="space16"></div>
-                    <a href="index.html">Home <i class="fa-solid fa-angle-right"></i> <span>About Alsafri</span></a>
+                    <a href="{{ route('home') }}">Home <i class="fa-solid fa-angle-right"></i> <span>About Alsafri</span></a>
                 </div>
             </div>
 
@@ -58,7 +58,7 @@
                         <img src="{{ asset('assets/img/icons/ch-icons1.svg') }}" alt="">
                         </div>
                         <div class="content-area">
-                        <a href="about.html">Steel Fabrication Excellence</a>
+                        <a href="{{ route('services') }}">Steel Fabrication Excellence</a>
                         <div class="space16"></div>
                         <p>We specialize in mild steel & stainless steel fabrication with over 20 years of experience in the industry.</p>
                         </div>
@@ -72,7 +72,7 @@
                         <img src="{{ asset('assets/img/icons/ch-icons2.svg') }}" alt="">
                         </div>
                         <div class="content-area">
-                        <a href="about.html">Elevator & Escalator Solutions</a>
+                        <a href="{{ route('services') }}">Elevator & Escalator Solutions</a>
                         <div class="space16"></div>
                         <p>We have completed over 600 escalators' outer cladding and 200+ elevators' cabins & doors cladding projects.</p>
                         </div>
@@ -81,7 +81,7 @@
                     </div>
                     <div class="space24"></div>
                     <div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
-                        <a href="about.html" class="vl-btn1">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="{{ route('services') }}" class="vl-btn1">Learn More<i class="fa-solid fa-arrow-right"></i></a>
                         <div class="call-boxarea" data-aos="fade-left" data-aos-duration="1100">
                         <div class="icons">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -121,7 +121,7 @@
                     <p>Our mission is to deliver superior steel fabrication and elevator cladding solutions that exceed client expectations, while maintaining the highest standards of quality, safety, and on-time delivery across all our projects in Saudi Arabia.</p>
                     <div class="space38"></div>
                     <div class="btn-area1">
-                        <a href="project-single.html" class="vl-btn1">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="{{ route('projects') }}" class="vl-btn1">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@
                         <img src="{{ asset('assets/img/icons/ch-icons1.svg') }}" alt="">
                         </div>
                         <div class="content-area">
-                        <a href="about.html">Comprehensive Steel Fabrication Services</a>
+                        <a href="{{ route('services') }}">Comprehensive Steel Fabrication Services</a>
                         <div class="space16"></div>
                         <p>We provide comprehensive steel fabrication services including mild steel & stainless steel structures, handrails, water tanks, and custom fabrication jobs tailored to client specifications.</p>
                         </div>
@@ -169,14 +169,14 @@
                         <img src="{{ asset('assets/img/icons/ch-icons2.svg') }}" alt="">
                         </div>
                         <div class="content-area">
-                        <a href="about.html">Elevator & Escalator Cladding Expertise</a>
+                        <a href="{{ route('services') }}">Elevator & Escalator Cladding Expertise</a>
                         <div class="space16"></div>
                         <p>Our specialized team has completed over 600 escalators' outer cladding and 200+ elevators' cabins & doors cladding projects across major shopping malls, hospitals, and commercial buildings.</p>
                         </div>
                     </div>
                     <div class="space38"></div>
                     <div class="btn-area1">
-                        <a href="project-single.html" class="vl-btn1">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="{{ route('projects') }}" class="vl-btn1">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -237,7 +237,7 @@
                                 </div>
                             </div>
                             <div class="text">
-                                <a href="team-single.html">Michael R</a>
+                                <a href="{{ route('about') }}">Michael R</a>
                                 <div class="space12"></div>
                                 <p>CEO & Founder at Automive</p>
                             </div>
@@ -267,7 +267,7 @@
                                 </div>
                             </div>
                             <div class="text">
-                                <a href="team-single.html">Kurt Bates</a>
+                                <a href="{{ route('about') }}">Kurt Bates</a>
                                 <div class="space12"></div>
                                 <p>Magna Architectural Design</p>
                             </div>
@@ -297,7 +297,7 @@
                                 </div>
                             </div>
                             <div class="text">
-                                <a href="team-single.html">Michael R</a>
+                                <a href="{{ route('about') }}">Michael R</a>
                                 <div class="space12"></div>
                                 <p>CEO & Founder at Automive</p>
                             </div>
@@ -330,7 +330,7 @@
                         <img src="{{ asset('assets/img/all-images/team/t-img10.png') }}" alt="">
                     </div>
                     <div class="content-area">
-                        <a href="team-single.html" class="title">Mr. Abdullah Barakah Ali Al-Safari Al-Harby</a>
+                        <a href="{{ route('about') }}" class="title">Mr. Abdullah Barakah Ali Al-Safari Al-Harby</a>
                         <div class="space12"></div>
                         <p>Chairman</p>
                     </div>
@@ -349,7 +349,7 @@
                         <img src="{{ asset('assets/img/all-images/team/t-img11.png') }}" alt="">
                     </div>
                     <div class="content-area">
-                        <a href="team-single.html" class="title">Mr. Mohammad Awad Al-Harby</a>
+                        <a href="{{ route('about') }}" class="title">Mr. Mohammad Awad Al-Harby</a>
                         <div class="space12"></div>
                         <p>Chief Executive Officer (CEO)</p>
                     </div>
@@ -368,7 +368,7 @@
                         <img src="{{ asset('assets/img/all-images/team/t-img12.png') }}" alt="">
                     </div>
                     <div class="content-area">
-                        <a href="team-single.html" class="title">Mr. Tasawar Mahmood</a>
+                        <a href="{{ route('about') }}" class="title">Mr. Tasawar Mahmood</a>
                         <div class="space12"></div>
                         <p>General Manager</p>
                     </div>

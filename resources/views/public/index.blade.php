@@ -26,13 +26,13 @@
               <path d="M14 18.3333C12.7519 18.3333 11.6667 17.3806 11.6667 16.1772V10.7117C11.6667 9.5584 12.6977 8.55556 14 8.55556C15.3023 8.55556 16.3333 9.50826 16.3333 10.7117V16.1772C16.3333 17.3806 15.3023 18.3333 14 18.3333Z" fill="white"/>
               </svg>
           </span>
-          <div class="space16"></div>
+            <div class="space16"></div>
           <span class="scroll">Scroll down</span>
         </a>
-        </div>
             </div>
           </div>
         </div>
+            </div>
 <!--===== HERO AREA ENDS =======-->
 
 <!--===== ABOUT AREA STARTS =======-->
@@ -46,16 +46,16 @@
             </div>
         <div class="experiance-area">
           <p>25 Years of Experience</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-    <div class="col-xl-6">
+      <div class="col-xl-6">
       <div class="about-heading heading3">
         <h5 class="vl-section-subtitle" data-aos="fade-up" data-aos-duration="900"><img src="{{ asset('assets/img/elements/elements12.png') }}" alt=""> <span>About Alsafri Establishment</span></h5>
-            <div class="space16"></div>
+          <div class="space16"></div>
         <h2 class="vl-section-title" data-aos="fade-up" data-aos-duration="1000">Excellence in Steel Fabrication & Elevator Solutions</h2>
-        <div class="space16"></div>
+          <div class="space16"></div>
         <p data-aos="fade-up" data-aos-duration="1100">Established in 2003, Alsafri has been providing specialized steel fabrication services with over 20 years of experience. We have completed more than 600 escalator cladding projects and over 200 elevator cabin & door cladding projects across Saudi Arabia.</p>
         <div class="row" data-aos="fade-up" data-aos-duration="1200">
           <div class="col-xl-6 col-md-6">
@@ -69,8 +69,8 @@
                   <h3><span class="counter">90</span>%</h3>
             </div>
                 <p>Quality & Precision</p>
+            </div>
           </div>
-        </div>
             </div>
 
           <div class="col-xl-6 col-md-6">
@@ -82,17 +82,17 @@
                   <path d="M58.2715 39.8619C59.4928 40.2587 60.1692 41.5747 59.6821 42.7627C57.3484 48.4537 53.366 53.3397 48.2227 56.7764C42.433 60.645 35.5095 62.4516 28.5678 61.9053C21.626 61.359 15.0704 58.4915 9.95718 53.7649C4.84395 49.0382 1.47094 42.7278 0.381662 35.8503C-0.707621 28.9729 0.550263 21.9289 3.95262 15.8536C7.35498 9.77824 12.7037 5.02529 19.1368 2.36059C25.57 -0.304107 32.7129 -0.725348 39.4146 1.16474C45.3682 2.84383 50.6656 6.26011 54.6436 10.9514C55.4741 11.9308 55.2374 13.3914 54.1986 14.1461C53.1597 14.9009 51.7131 14.6626 50.8698 13.6943C47.5152 9.84277 43.1004 7.03563 38.1525 5.64016C32.456 4.03358 26.3845 4.39164 20.9163 6.65663C15.4481 8.92162 10.9017 12.9616 8.00973 18.1257C5.11772 23.2897 4.04852 29.2771 4.97441 35.1229C5.9003 40.9687 8.76736 46.3326 13.1136 50.3503C17.4598 54.3679 23.0321 56.8053 28.9326 57.2696C34.8331 57.734 40.718 56.1983 45.6393 52.9101C49.9139 50.0539 53.2451 46.0199 55.2453 41.3202C55.7482 40.1387 57.0503 39.4651 58.2715 39.8619Z" fill="#E8040F"/>
                 </svg>
                   <h3><span class="counter">85</span>%</h3>
-          </div>
-                <p>On-Time Delivery</p>
-        </div>
-      </div>
             </div>
+                <p>On-Time Delivery</p>
           </div>
-          <div class="space38"></div>
-        <div class="btn-area1" data-aos="fade-up" data-aos-duration="1200">
-            <a href="about.html" class="vl-btn1">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
          </div>
+      </div>
+          <div class="space38"></div>
+        <div class="btn-area1" data-aos="fade-up" data-aos-duration="1200">
+            <a href="{{ route('about') }}" class="vl-btn1">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -128,7 +128,7 @@
           <div class="space16"></div>
           <p>Specialized stainless steel cladding for escalators and elevators, including dismantling, installation, and accessories for elevator systems.</p>
             <div class="space24"></div>
-            <a href="service-single.html" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="{{ route('contact') }}" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -148,7 +148,7 @@
           <div class="space16"></div>
           <p>Mild steel structures, hangers, and stainless steel handrails for staircases, along with sliding gates and cage ladders for various applications.</p>
             <div class="space24"></div>
-            <a href="service-single.html" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="{{ route('contact') }}" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -168,7 +168,7 @@
           <div class="space16"></div>
           <p>Custom stainless steel and mild steel water tanks, along with all types of fabrication jobs according to client specifications and sketches.</p>
             <div class="space24"></div>
-            <a href="service-single.html" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="{{ route('contact') }}" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -218,7 +218,7 @@
             </div>
                  <div class="space32"></div>
                  <div class="btn-area1" data-aos="fade-up" data-aos-duration="1200">
-                  <a href="project-single.html" class="vl-btn1">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                  <a href="{{ route('projects') }}" class="vl-btn1">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
             </div>
             </div>
@@ -522,7 +522,7 @@
                   </ul>
                   <div class="space32"></div>
                   <div class="bnt-area1">
-                      <a href="contact.html" class="vl-btn1">Choose A Plan <i class="fa-solid fa-arrow-right"></i></a>
+                      <a href="{{ route('contact') }}" class="vl-btn1">Choose A Plan <i class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -605,7 +605,7 @@
                   </ul>
                   <div class="space32"></div>
                   <div class="bnt-area1">
-                      <a href="contact.html" class="vl-btn1">Choose A Plan <i class="fa-solid fa-arrow-right"></i></a>
+                      <a href="{{ route('contact') }}" class="vl-btn1">Choose A Plan <i class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -688,7 +688,7 @@
                   </ul>
                   <div class="space32"></div>
                   <div class="bnt-area1">
-                      <a href="contact.html" class="vl-btn1">Choose A Plan <i class="fa-solid fa-arrow-right"></i></a>
+                      <a href="{{ route('contact') }}" class="vl-btn1">Choose A Plan <i class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -737,7 +737,7 @@
           <p>With over 20 years of experience, Alsafri specializes in stainless steel cladding for escalators and elevators, serving major companies like Kone, Fujitec, Schindler, and Otis across Saudi Arabia.</p>
             <div class="space24"></div>
             <div class="vl-blog-1-icon">
-            <a href="blog-single.html" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="{{ route('contact') }}" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
            </div>
          </div>
         </div>
@@ -770,7 +770,7 @@
           <p>From mild steel structures and handrails to water tanks and custom fabrication jobs, we provide complete steel fabrication solutions tailored to meet your specific project requirements.</p>
             <div class="space24"></div>
             <div class="vl-blog-1-icon">
-            <a href="blog-single.html" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="{{ route('contact') }}" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
            </div>
          </div>
         </div>

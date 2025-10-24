@@ -19,9 +19,10 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
 
-        // Seed gallery images
+        // Seed gallery images and projects
         $this->call([
             GalleryImageSeeder::class,
+            ProjectSeeder::class,
         ]);
     }
 }
