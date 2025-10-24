@@ -7,6 +7,8 @@ use App\Http\Controllers\admin\EventsController;
 use App\Http\Controllers\admin\ReportsController;
 use App\Http\Controllers\admin\EmailController;
 use App\Http\Controllers\admin\WhatsAppController;
+use App\Http\Controllers\admin\ContactMessagesController;
+use App\Http\Controllers\admin\EmailSubscriptionsController;
 use App\Http\Controllers\public\PagesController;
 use App\Http\Controllers\SubscriptionController;
 use App\Http\Controllers\ContactController;
@@ -51,7 +53,13 @@ Route::prefix('admin')->group(function () {
          // Admin Dashboard - only accessible by admin users
         Route::get('/dashboard', [DashboardController::class , 'dashboard'])->name('admin-dashboard')->middleware('admin.only');
         Route::get('/profile', [ProfileController::class, 'index'])->name('admin.profile.index');
-        Route::put('/profile', [ProfileController::class, 'update'])->name('admin.profile.update');        
+        Route::put('/profile', [ProfileController::class, 'update'])->name('admin.profile.update');
+        
+        // Contact Messages Management
+        Route::get('/contact-messages', [ContactMessagesController::class, 'index'])->name('admin.contact-messages')->middleware('admin.only');
+        
+        // Email Subscriptions Management
+        Route::get('/email-subscriptions', [EmailSubscriptionsController::class, 'index'])->name('admin.email-subscriptions')->middleware('admin.only');
     });
  
 });
