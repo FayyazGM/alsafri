@@ -220,39 +220,4 @@
 </div>
 <!--===== PROJECTS AREA ENDS =======-->
 
-<!--===== CTA AREA STARTS =======-->
-<div class="cta1-aection-area">
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-12">
-        <div class="cta-bg-area">
-          <img src="{{ asset('assets/img/elements/elements4.png') }}" alt="" class="elements4">
-          <div class="row align-items-center">
-            <div class="col-xl-6">
-              <div class="cta-heading">
-                <h2 data-aos="zoom-in" data-aos-duration="800">Secure Reliable Power for Your Home and Business!</h2>
-                <div class="space16"></div>
-                <p data-aos="zoom-in" data-aos-duration="900">No more blackouts, no more energy worries! VOLTZ ensures you have uninterrupted, high-quality power whenever you need it. Get a free!</p>
-                <div class="space32"></div>
-                <div class="form-area" data-aos="zoom-in" data-aos-duration="1100">
-                  <form>
-                    <input type="text" placeholder="Your Email Address">
-                    <button class="vl-btn1" type="submit">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-1"></div>
-              <div class="col-xl-5" data-aos="zoom-in" data-aos-duration="1000">
-              <div class="cta-images-area text-end">
-                <img src="{{ asset('assets/img/all-images/cta/cta-img1.png') }}" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--===== CTA AREA ENDS =======-->
 @endsection

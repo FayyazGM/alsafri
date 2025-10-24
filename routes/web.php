@@ -8,6 +8,7 @@ use App\Http\Controllers\admin\ReportsController;
 use App\Http\Controllers\admin\EmailController;
 use App\Http\Controllers\admin\WhatsAppController;
 use App\Http\Controllers\public\PagesController;
+use App\Http\Controllers\SubscriptionController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\admin\QrCodeController;
 use App\Http\Controllers\admin\ProfileController;
@@ -29,6 +30,9 @@ Route::get('/services', [PagesController::class , 'services'])->name('services')
 Route::get('/projects', [PagesController::class , 'projects'])->name('projects');
 Route::get('/gallery', [PagesController::class , 'gallery'])->name('gallery');
 Route::get('/contact', [PagesController::class , 'contact'])->name('contact');
+
+// Subscription routes
+Route::post('/subscribe', [SubscriptionController::class, 'store'])->name('subscribe');
 // Admin Routes
 Route::prefix('admin')->group(function () {
     Route::get('/', [AuthController::class , 'login'])->name('admin-login');

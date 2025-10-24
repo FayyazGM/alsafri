@@ -420,6 +420,65 @@ $(window).on("load", function (event) {
   }, 200);
 });
 
+//========== SUBSCRIPTION FORM AJAX ============= //
+$('#subscription-form').on('submit', function(e) {
+    e.preventDefault();
+    
+    var form = $(this);
+    var email = $('#subscription-email').val();
+    var submitBtn = form.find('button[type="submit"]');
+    var messageDiv = $('#subscription-message');
+    var originalBtnText = submitBtn.html();
+    
+    // Change button text to subscribing
+    submitBtn.html('Subscribing...');
+    submitBtn.prop('disabled', true);
+    
+    // Hide previous messages
+    messageDiv.hide();
+    
+    $.ajax({
+        url: form.data('url') || '/subscribe',
+        type: 'POST',
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        },
+        data: {
+            email: email
+        },
+        success: function(response) {
+            if (response.success) {
+                messageDiv.html('<div class="alert alert-success alert-dismissible fade show" role="alert">' + 
+                    response.message + 
+                    '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>' +
+                    '</div>').show();
+                form[0].reset();
+            } else {
+                messageDiv.html('<div class="alert alert-danger alert-dismissible fade show" role="alert">' + 
+                    response.message + 
+                    '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>' +
+                    '</div>').show();
+            }
+        },
+        error: function(xhr) {
+            var errorMessage = 'Something went wrong. Please try again later.';
+            if (xhr.responseJSON && xhr.responseJSON.message) {
+                errorMessage = xhr.responseJSON.message;
+            }
+            messageDiv.html('<div class="alert alert-danger alert-dismissible fade show" role="alert">' + 
+                errorMessage + 
+                '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>' +
+                '</div>').show();
+        },
+        complete: function() {
+            // Restore button state
+            submitBtn.html(originalBtnText);
+            submitBtn.prop('disabled', false);
+        }
+    });
+});
+//========== SUBSCRIPTION FORM AJAX ENDS ============= //
+
 })(jQuery);
 
 // SWIPER SLIDER //
