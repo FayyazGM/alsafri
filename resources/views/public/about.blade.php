@@ -7,9 +7,9 @@
         <div class="row align-items-center">
             <div class="col-xl-8 col-lg-8">
                 <div class="heading1">
-                    <h1>About Us</h1>
+                    <h1>About Alsafri</h1>
                     <div class="space16"></div>
-                    <a href="index.html">Home <i class="fa-solid fa-angle-right"></i> <span>About Us</span></a>
+                    <a href="index.html">Home <i class="fa-solid fa-angle-right"></i> <span>About Alsafri</span></a>
                 </div>
             </div>
 
@@ -45,11 +45,11 @@
             </div>
             <div class="col-xl-6">
                 <div class="about2-heading heading1">
-                  <h5 class="vl-section-subtitle" data-aos="fade-left" data-aos-duration="900"><img src="{{ asset('assets/img/elements/elements5.png') }}" alt=""> <span>About Our Voltz</span> <img src="{{ asset('assets/img/elements/elements6.png') }}" alt=""></h5>
+                  <h5 class="vl-section-subtitle" data-aos="fade-left" data-aos-duration="900"><img src="{{ asset('assets/img/elements/elements5.png') }}" alt=""> <span>About Alsafri</span> <img src="{{ asset('assets/img/elements/elements6.png') }}" alt=""></h5>
                   <div class="space16"></div>
-                  <h2 class="vl-section-title" data-aos="fade-left" data-aos-duration="1000">Smart Energy Solutions For A Sustainable World</h2>
+                  <h2 class="vl-section-title" data-aos="fade-left" data-aos-duration="1000">Leading Steel Fabrication & Elevator Solutions in Saudi Arabia</h2>
                   <div class="space16"></div>
-                  <p data-aos="fade-left" data-aos-duration="1000">At VOLTZ, we believe that power should be smart, sustainable, and always reliable. As a leader in next-generation energy solutions, we provide cutting edge electricity services designed to meet the needs of homes, businesses.</p>
+                  <p data-aos="fade-left" data-aos-duration="1000">Abdullah Barakah Ali Al Safari Al Harby Establishment (Alsafri) specializes in all kinds of mild steel & stainless steel fabrication jobs along with extensive experience in escalators' outer cladding and elevators' cabins & doors cladding across the Kingdom of Saudi Arabia.</p>
                     <div class="row">
                         <div class="col-xl-6 col-md-6">
                         <div class="space24"></div>
@@ -58,9 +58,9 @@
                         <img src="{{ asset('assets/img/icons/ch-icons1.svg') }}" alt="">
                         </div>
                         <div class="content-area">
-                        <a href="about.html">Innovating Energy</a>
+                        <a href="about.html">Steel Fabrication Excellence</a>
                         <div class="space16"></div>
-                        <p>Weâre redefining electricity with efficient, reliable, and </p>
+                        <p>We specialize in mild steel & stainless steel fabrication with over 20 years of experience in the industry.</p>
                         </div>
                     </div>
                   </div>
@@ -72,9 +72,9 @@
                         <img src="{{ asset('assets/img/icons/ch-icons2.svg') }}" alt="">
                         </div>
                         <div class="content-area">
-                        <a href="about.html">Powerful Solutions</a>
+                        <a href="about.html">Elevator & Escalator Solutions</a>
                         <div class="space16"></div>
-                        <p>We believe in smart, sustainable energy that</p>
+                        <p>We have completed over 600 escalators' outer cladding and 200+ elevators' cabins & doors cladding projects.</p>
                         </div>
                     </div>
                   </div>
@@ -91,7 +91,7 @@
                         <div class="content-area">
                         <p>GIVE US A CALL</p>
                         <div class="space6"></div>
-                        <a href="tel:123-456-7890">123-456-7890</a>
+                        <a href="tel:+966-2-2898225">+966-2-2898225</a>
                         </div>
                     </div>
                     </div>
@@ -110,15 +110,15 @@
                 <div class="heading1">
                     <h5 class="vl-section-subtitle" data-aos="fade-left" data-aos-duration="800"><img src="{{ asset('assets/img/elements/elements5.png') }}" alt=""> <span>Our Approach</span> <img src="{{ asset('assets/img/elements/elements6.png') }}" alt=""></h5>
                     <div class="space16"></div>
-                    <h2 class="vl-section-title" data-aos="fade-left" data-aos-duration="900">Powering the Future Voltz</h2>
+                    <h2 class="vl-section-title" data-aos="fade-left" data-aos-duration="900">Excellence in Steel Fabrication & Elevator Solutions</h2>
                     <div class="space24"></div>
                     <h3>Our Vision</h3>
                     <div class="space16"></div>
-                    <p data-aos="fade-left" data-aos-duration="1000">At Voltz we envision a future where energy is limitless, sustainable, & accessible to all. Our goal is to lead the transformation of the power industry by integrating cutting-edge technology, </p>
+                    <p data-aos="fade-left" data-aos-duration="1000">At Alsafri, we envision becoming the leading steel fabrication and elevator solutions provider in Saudi Arabia, known for our commitment to quality, innovation, and customer satisfaction in every project we undertake.</p>
                     <div class="space30"></div>
                     <h3>Our Mission</h3>
                     <div class="space16"></div>
-                    <p>Our mission is to redefine the way energy is produced distributed, and consumed by delivering innovative, efficient, and eco-friendly solutions tailored to the needs of modern society.</p>
+                    <p>Our mission is to deliver superior steel fabrication and elevator cladding solutions that exceed client expectations, while maintaining the highest standards of quality, safety, and on-time delivery across all our projects in Saudi Arabia.</p>
                     <div class="space38"></div>
                     <div class="btn-area1">
                         <a href="project-single.html" class="vl-btn1">Learn More <i class="fa-solid fa-arrow-right"></i></a>
@@ -147,20 +147,20 @@
         <div class="row">
             <div class="col-xl-6">
                 <div class="choose-heading heading1">
-                    <h5 class="vl-section-subtitle" data-aos="fade-left" data-aos-duration="900"><img src="{{ asset('assets/img/elements/elements5.png') }}" alt=""> <span>WHY CHOOSE voltz</span> <img src="{{ asset('assets/img/elements/elements6.png') }}" alt=""></h5>
+                    <h5 class="vl-section-subtitle" data-aos="fade-left" data-aos-duration="900"><img src="{{ asset('assets/img/elements/elements5.png') }}" alt=""> <span>WHY CHOOSE ALSAFRI</span> <img src="{{ asset('assets/img/elements/elements6.png') }}" alt=""></h5>
                   <div class="space16"></div>
-                  <h2 class="vl-section-title" data-aos="fade-left" data-aos-duration="1000">Powering the Future with Innovation and Reliability</h2>
+                  <h2 class="vl-section-title" data-aos="fade-left" data-aos-duration="1000">Two Decades of Excellence in Steel Fabrication</h2>
                   <div class="space16"></div>
-                  <p data-aos="fade-left" data-aos-duration="1000">At VOLTZ, we believe in delivering smart, reliable, and sustainable energy solutions that power homes, businesses, & industries efficiently. Our cutting edge technology, renewable energy options, and advanced power systems</p>
+                  <p data-aos="fade-left" data-aos-duration="1000">At Alsafri, we have been delivering exceptional steel fabrication and elevator solutions since 2003. With over 20 years of experience, we have completed 600+ escalator cladding projects and 200+ elevator installations across Saudi Arabia, serving major clients like Kone, Fujitec, Schindler, and Otis.</p>
                   <div class="space24"></div>
                   <div class="choose-boxarea" data-aos="fade-left" data-aos-duration="1100">
                         <div class="icons">
                         <img src="{{ asset('assets/img/icons/ch-icons1.svg') }}" alt="">
                         </div>
                         <div class="content-area">
-                        <a href="about.html">Revolutionizing Power with Smart Solutions</a>
+                        <a href="about.html">Comprehensive Steel Fabrication Services</a>
                         <div class="space16"></div>
-                        <p>We believe in delivering smart, reliable, and sustainable energy solutions that power homes, businesses, & industries efficiently.</p>
+                        <p>We provide comprehensive steel fabrication services including mild steel & stainless steel structures, handrails, water tanks, and custom fabrication jobs tailored to client specifications.</p>
                         </div>
                     </div>
                     <div class="space24"></div>
@@ -169,9 +169,9 @@
                         <img src="{{ asset('assets/img/icons/ch-icons2.svg') }}" alt="">
                         </div>
                         <div class="content-area">
-                        <a href="about.html">Tailored Energy Solutions for Every Need</a>
+                        <a href="about.html">Elevator & Escalator Cladding Expertise</a>
                         <div class="space16"></div>
-                        <p>We believe in delivering smart, reliable, and sustainable energy solutions that power homes, businesses, & industries efficiently.</p>
+                        <p>Our specialized team has completed over 600 escalators' outer cladding and 200+ elevators' cabins & doors cladding projects across major shopping malls, hospitals, and commercial buildings.</p>
                         </div>
                     </div>
                     <div class="space38"></div>
@@ -206,7 +206,7 @@
                 <div class="heading1 text-center space-margin60">
                     <h5 class="vl-section-subtitle" data-aos="zoom-in-up" data-aos-duration="900"><img src="{{ asset('assets/img/elements/elements5.png') }}" alt=""> <span>TESTIMONIALS</span> <img src="{{ asset('assets/img/elements/elements6.png') }}" alt=""></h5>
                   <div class="space16"></div>
-                  <h2 class="vl-section-title" data-aos="zoom-in-up" data-aos-duration="1000">What Our Customers Say</h2>
+                  <h2 class="vl-section-title" data-aos="zoom-in-up" data-aos-duration="1000">Trusted by Leading Companies Across Saudi Arabia</h2>
                 </div>
             </div>
         </div>
@@ -318,7 +318,7 @@
                 <div class="heading1 text-center space-margin60">
                     <h5 class="vl-section-subtitle" data-aos="zoom-in-up" data-aos-duration="900"><img src="{{ asset('assets/img/elements/elements6.png') }}" alt=""><span>Our team</span> <img src="{{ asset('assets/img/elements/elements6.png') }}" alt=""></h5>
                    <div class="space16"></div>
-                   <h2 class="vl-section-title" data-aos="zoom-in-up" data-aos-duration="1000">Meet Our Expert Team</h2>
+                   <h2 class="vl-section-title" data-aos="zoom-in-up" data-aos-duration="1000">Meet Our Executive Team</h2>
                 </div>
             </div>
         </div>
@@ -330,9 +330,9 @@
                         <img src="{{ asset('assets/img/all-images/team/t-img10.png') }}" alt="">
                     </div>
                     <div class="content-area">
-                        <a href="team-single.html" class="title">Daniel Hamilton</a>
+                        <a href="team-single.html" class="title">Mr. Abdullah Barakah Ali Al-Safari Al-Harby</a>
                         <div class="space12"></div>
-                        <p>Total Network Development</p>
+                        <p>Chairman</p>
                     </div>
                     <ul>
                          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -349,9 +349,9 @@
                         <img src="{{ asset('assets/img/all-images/team/t-img11.png') }}" alt="">
                     </div>
                     <div class="content-area">
-                        <a href="team-single.html" class="title">Autumn Phillips</a>
+                        <a href="team-single.html" class="title">Mr. Mohammad Awad Al-Harby</a>
                         <div class="space12"></div>
-                        <p>Rainbow Bay Crafts</p>
+                        <p>Chief Executive Officer (CEO)</p>
                     </div>
                     <ul>
                          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -368,9 +368,9 @@
                         <img src="{{ asset('assets/img/all-images/team/t-img12.png') }}" alt="">
                     </div>
                     <div class="content-area">
-                        <a href="team-single.html" class="title">Kenneth Allen</a>
+                        <a href="team-single.html" class="title">Mr. Tasawar Mahmood</a>
                         <div class="space12"></div>
-                        <p>Cut Rite Lawn Care</p>
+                        <p>General Manager</p>
                     </div>
                     <ul>
                          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -393,7 +393,7 @@
           <div class="heading1 text-center space-margin60">
             <h5 class="vl-section-subtitle" data-aos="zoom-in-up" data-aos-duration="900"><img src="{{ asset('assets/img/elements/elements6.png') }}" alt=""><span>CONTACT US</span> <img src="{{ asset('assets/img/elements/elements6.png') }}" alt=""></h5>
             <div class="space16"></div>
-            <h2 class="vl-section-title" data-aos="zoom-in-up" data-aos-duration="1000">Your Clean Energy Journey Begins Now</h2>
+            <h2 class="vl-section-title" data-aos="zoom-in-up" data-aos-duration="1000">Get Your Steel Fabrication Project Started Today</h2>
           </div>
         </div>
       </div>
@@ -467,14 +467,14 @@
           <div class="row align-items-center">
             <div class="col-xl-6">
               <div class="cta-heading">
-                <h2 data-aos="zoom-in" data-aos-duration="800">Secure Reliable Power for Your Home and Business!</h2>
+                <h2 data-aos="zoom-in" data-aos-duration="800">Quality Steel Fabrication & Elevator Solutions for Your Projects!</h2>
                 <div class="space16"></div>
-                <p data-aos="zoom-in" data-aos-duration="900">No more blackouts, no more energy worries! VOLTZ ensures you have uninterrupted, high-quality power whenever you need it. Get a free!</p>
+                <p data-aos="zoom-in" data-aos-duration="900">No more project delays, no more quality concerns! Alsafri ensures you have reliable, high-quality steel fabrication and elevator solutions whenever you need them. Get a free quote today!</p>
                 <div class="space32"></div>
                 <div class="form-area" data-aos="zoom-in" data-aos-duration="1100">
                   <form>
                     <input type="text" placeholder="Your Email Address">
-                    <button class="vl-btn1" type="submit">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="vl-btn1" type="submit">Get Quote <i class="fa-solid fa-arrow-right"></i></button>
                   </form>
                 </div>
               </div>

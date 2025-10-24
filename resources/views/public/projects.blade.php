@@ -7,7 +7,7 @@
         <div class="row align-items-center">
             <div class="col-xl-8 col-lg-8">
                 <div class="heading1">
-                    <h1>Projects</h1>
+                    <h1>Our Major Projects</h1>
                     <div class="space16"></div>
                     <a href="index.html">Home <i class="fa-solid fa-angle-right"></i> <span>Projects</span></a>
                 </div>
@@ -37,9 +37,9 @@
                     </div>
                     <div class="contain-main-area">
                     <div class="content-p-area">
-                    <span>Edge energy solutions</span>
+                    <span>Haram Makkah Projects</span>
                     <div class="space12"></div>
-                    <a href="project-single.html" class="title">Projects Content voltz</a>
+                    <a href="project-single.html" class="title">Escalator Cladding & Elevator Solutions</a>
                     </div>
                     <div class="arrow">
                     <a href="project-single.html"><i class="fa-solid fa-arrow-right"></i></a>
@@ -55,9 +55,9 @@
                     </div>
                     <div class="contain-main-area">
                     <div class="content-p-area">
-                    <span>Edge energy solutions</span>
+                    <span>Major Shopping Malls</span>
                     <div class="space12"></div>
-                    <a href="project-single.html" class="title">Projects Content voltz</a>
+                    <a href="project-single.html" class="title">Elevator Cabin & Door Cladding</a>
                     </div>
                     <div class="arrow">
                     <a href="project-single.html"><i class="fa-solid fa-arrow-right"></i></a>
@@ -73,9 +73,9 @@
                     </div>
                     <div class="contain-main-area">
                     <div class="content-p-area">
-                    <span>Edge energy solutions</span>
+                    <span>Universities & Hospitals</span>
                     <div class="space12"></div>
-                    <a href="project-single.html" class="title">Projects Content voltz</a>
+                    <a href="project-single.html" class="title">Steel Structures & Handrails</a>
                     </div>
                     <div class="arrow">
                     <a href="project-single.html"><i class="fa-solid fa-arrow-right"></i></a>
@@ -91,9 +91,9 @@
                     </div>
                     <div class="contain-main-area">
                     <div class="content-p-area">
-                    <span>Edge energy solutions</span>
+                    <span>Commercial Buildings</span>
                     <div class="space12"></div>
-                    <a href="project-single.html" class="title">Projects Content voltz</a>
+                    <a href="project-single.html" class="title">Water Tanks & Custom Fabrication</a>
                     </div>
                     <div class="arrow">
                     <a href="project-single.html"><i class="fa-solid fa-arrow-right"></i></a>
@@ -109,9 +109,9 @@
                     </div>
                     <div class="contain-main-area">
                     <div class="content-p-area">
-                    <span>Edge energy solutions</span>
+                    <span>Industrial Projects</span>
                     <div class="space12"></div>
-                    <a href="project-single.html" class="title">Projects Content voltz</a>
+                    <a href="project-single.html" class="title">Steel Brackets & Accessories</a>
                     </div>
                     <div class="arrow">
                     <a href="project-single.html"><i class="fa-solid fa-arrow-right"></i></a>
@@ -127,9 +127,9 @@
                     </div>
                     <div class="contain-main-area">
                     <div class="content-p-area">
-                    <span>Edge energy solutions</span>
+                    <span>Power Plants</span>
                     <div class="space12"></div>
-                    <a href="project-single.html" class="title">Projects Content voltz</a>
+                    <a href="project-single.html" class="title">Stainless Steel Fabrication</a>
                     </div>
                     <div class="arrow">
                     <a href="project-single.html"><i class="fa-solid fa-arrow-right"></i></a>
