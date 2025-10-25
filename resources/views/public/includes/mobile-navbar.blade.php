@@ -27,14 +27,7 @@
           <div class="vl-offcanvas-language">
               <h3 class="vl-offcanvas-sm-title">Language</h3>
               <div class="space20"></div>
-              <div class="language-options">
-                  <button class="language-btn" onclick="changeLanguage('en', 'English')">
-                      <i class="flag-icon flag-icon-us me-2"></i>English
-                  </button>
-                  <button class="language-btn" onclick="changeLanguage('ar', 'العربية')">
-                      <i class="flag-icon flag-icon-sa me-2"></i>العربية
-                  </button>
-              </div>
+              <div id="google_translate_element_mobile"></div>
           </div>
   
           <div class="space20"></div>

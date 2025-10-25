@@ -77,19 +77,27 @@
 
     /* Language switching styles - no Google Translate needed */
 
-/* RTL support for Arabic */
-body[dir="rtl"] {
-    direction: rtl;
-    text-align: right;
+/* Google Translate Widget Styling */
+.goog-te-banner-frame {
+    display: none !important;
 }
 
-body[dir="rtl"] .navbar-nav {
-    direction: rtl;
+.goog-te-gadget {
+    font-family: inherit !important;
 }
 
-body[dir="rtl"] .dropdown-menu {
-    right: 0;
-    left: auto;
+.goog-te-gadget .goog-te-combo {
+    background: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    color: white !important;
+    padding: 8px 12px !important;
+    border-radius: 5px !important;
+    font-size: 14px !important;
+}
+
+.goog-te-gadget .goog-te-combo:focus {
+    outline: none !important;
+    border-color: #007bff !important;
 }
 
 /* Mobile Language Options */
@@ -126,5 +134,41 @@ body[dir="rtl"] .dropdown-menu {
     background-position: center;
     border-radius: 2px;
     margin-right: 10px;
+}
+/* Google Translate Dropdown Styling - Fixed */
+#google_translate_element .goog-te-gadget-simple {
+    padding: 6px 8px;
+    border-radius: 8px;
+    background: white !important;
+    border: 1px solid #e0e0e0 !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+/* Only hide Google logo, not functional elements */
+#google_translate_element .goog-te-gadget-simple img[src*="google"] {
+    display: none;
+}
+
+/* Ensure dropdown remains functional */
+#google_translate_element .goog-te-gadget-simple .goog-te-combo {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    opacity: 1 !important;
+    background: white !important;
+    border: none !important;
+    padding: 8px 12px !important;
+    border-radius: 6px !important;
+    font-size: 14px !important;
+    color: #333 !important;
+}
+
+/* Ensure dropdown menu is accessible */
+#google_translate_element .goog-te-gadget-simple .goog-te-menu {
+    z-index: 10000 !important;
+    pointer-events: auto !important;
+    background: white !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
 }
 </style>
