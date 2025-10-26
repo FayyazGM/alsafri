@@ -5,7 +5,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta name="csrf-token" content="{{ csrf_token() }}">
      <title>@yield('title')</title>
-    
+
      @include('public.includes.header')
 </head>
 <body>
@@ -228,142 +228,6 @@
             applyLTR();
         });
         
-        // Function to hide Google Translate top bar
-        function hideGoogleTranslateBar() {
-            // Hide the top banner iframe (but not the dropdown)
-            const iframe = document.querySelector('iframe.skiptranslate');
-            if (iframe && !iframe.closest('.goog-te-gadget')) {
-                iframe.style.display = 'none';
-                iframe.style.visibility = 'hidden';
-                iframe.style.height = '0';
-                iframe.style.overflow = 'hidden';
-            }
-            
-            // Remove top spacing
-            document.body.style.top = '0px';
-            
-            // Hide Google Translate banners (but not dropdowns)
-            const banners = document.querySelectorAll('.goog-te-banner-frame.skiptranslate');
-            banners.forEach(function(banner) {
-                if (!banner.classList.contains('goog-te-gadget') && !banner.closest('.goog-te-gadget')) {
-                    banner.style.display = 'none';
-                    banner.style.visibility = 'hidden';
-                    banner.style.height = '0';
-                    banner.style.overflow = 'hidden';
-                }
-            });
-            
-            // Hide the "Show original" bar
-            const showOriginalBar = document.querySelector('.goog-te-banner-frame.goog-te-banner-frame-bottom');
-            if (showOriginalBar) {
-                showOriginalBar.style.display = 'none';
-            }
-            
-            // Ensure the dropdown remains visible and functional
-            const dropdowns = document.querySelectorAll('.goog-te-gadget');
-            dropdowns.forEach(function(dropdown) {
-                dropdown.style.display = 'block';
-                dropdown.style.visibility = 'visible';
-                dropdown.style.pointerEvents = 'auto';
-                dropdown.style.zIndex = '9999';
-                
-                // Ensure the dropdown combo is clickable
-                const combo = dropdown.querySelector('.goog-te-combo');
-                if (combo) {
-                    combo.style.pointerEvents = 'auto';
-                    combo.style.cursor = 'pointer';
-                    combo.disabled = false;
-                    combo.style.opacity = '1';
-                    
-                    // Remove any event blocking
-                    combo.onclick = null;
-                    combo.onmousedown = null;
-                    combo.onmouseup = null;
-                }
-                
-                // Ensure the dropdown menu is accessible
-                const menu = dropdown.querySelector('.goog-te-menu');
-                if (menu) {
-                    menu.style.display = 'block';
-                    menu.style.visibility = 'visible';
-                    menu.style.pointerEvents = 'auto';
-                    menu.style.zIndex = '10000';
-                }
-            });
-        }
-        
-        // Run the hide function immediately and periodically
-        hideGoogleTranslateBar();
-        setInterval(hideGoogleTranslateBar, 1000);
-        
-        // Also run after page load
-        window.addEventListener('load', function() {
-            setTimeout(hideGoogleTranslateBar, 1000);
-            setTimeout(hideGoogleTranslateBar, 3000);
-        });
-        
-        // Function to ensure dropdown is clickable
-        function ensureDropdownClickable() {
-            const dropdowns = document.querySelectorAll('.goog-te-gadget .goog-te-combo');
-            dropdowns.forEach(function(dropdown) {
-                // Remove any disabled state
-                dropdown.disabled = false;
-                dropdown.style.pointerEvents = 'auto';
-                dropdown.style.cursor = 'pointer';
-                dropdown.style.opacity = '1';
-                
-                // Add click event if needed
-                dropdown.onclick = function() {
-                    this.focus();
-                };
-                
-                // Ensure it's not blocked by other elements
-                dropdown.style.zIndex = '9999';
-            });
-        }
-        
-        // Ensure dropdown is clickable periodically
-        setInterval(ensureDropdownClickable, 2000);
-        
-        // Also ensure it's clickable after Google Translate loads
-        setTimeout(ensureDropdownClickable, 3000);
-        setTimeout(ensureDropdownClickable, 5000);
-        
-        // Function to fix dropdown functionality with custom styles
-        function fixDropdownWithCustomStyles() {
-            const dropdowns = document.querySelectorAll('#google_translate_element .goog-te-gadget-simple .goog-te-combo');
-            dropdowns.forEach(function(dropdown) {
-                // Ensure it's clickable
-                dropdown.style.pointerEvents = 'auto';
-                dropdown.style.cursor = 'pointer';
-                dropdown.style.opacity = '1';
-                dropdown.disabled = false;
-                
-                // Remove any blocking styles
-                dropdown.style.display = 'block';
-                dropdown.style.visibility = 'visible';
-                
-                // Add click handler
-                dropdown.onclick = function(e) {
-                    e.stopPropagation();
-                    this.focus();
-                };
-                
-                // Ensure dropdown menu is accessible
-                const menu = dropdown.closest('.goog-te-gadget-simple').querySelector('.goog-te-menu');
-                if (menu) {
-                    menu.style.zIndex = '10000';
-                    menu.style.pointerEvents = 'auto';
-                    menu.style.display = 'block';
-                }
-            });
-        }
-        
-        // Run the fix function periodically
-        setInterval(fixDropdownWithCustomStyles, 2000);
-        setTimeout(fixDropdownWithCustomStyles, 3000);
-        setTimeout(fixDropdownWithCustomStyles, 5000);
-        
         // Fallback if Google Translate fails to load
         setTimeout(function() {
             if (typeof google === 'undefined' || !google.translate) {
@@ -385,50 +249,9 @@
     
     <!-- Google Translate Widget Styling -->
     <style>
-        /* Hide Google Translate top bar completely */
-        .goog-te-banner-frame.skiptranslate {
+        /* Hide Google Translate branding */
+        .goog-te-banner-frame {
             display: none !important;
-        }
-        
-        /* Remove top spacing caused by the hidden iframe */
-        body {
-            top: 0px !important;
-        }
-        
-        /* Hide the iframe that sometimes appears */
-        iframe.VIpgJd-ZVi9od-ORHb-OEVmcd {
-            display: none !important;
-        }
-        
-        /* Hide the "Show original" bar */
-        .goog-te-banner-frame.goog-te-banner-frame-bottom {
-            display: none !important;
-        }
-        
-        /* Hide Google Translate top notification bar (but not dropdown) */
-        body > .goog-te-banner-frame:not(.goog-te-gadget) {
-            display: none !important;
-        }
-        
-        /* Ensure the dropdown remains visible and functional */
-        .goog-te-gadget {
-            display: block !important;
-            visibility: visible !important;
-            pointer-events: auto !important;
-            z-index: 9999 !important;
-        }
-        
-        /* Ensure dropdown combo is clickable */
-        .goog-te-gadget .goog-te-combo {
-            pointer-events: auto !important;
-            cursor: pointer !important;
-            opacity: 1 !important;
-        }
-        
-        /* Ensure dropdown menu is accessible */
-        .goog-te-gadget .goog-te-menu {
-            z-index: 10000 !important;
-            pointer-events: auto !important;
         }
         
         /* Style the translate dropdown */

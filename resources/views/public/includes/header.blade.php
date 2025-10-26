@@ -135,40 +135,20 @@
     border-radius: 2px;
     margin-right: 10px;
 }
-/* Google Translate Dropdown Styling - Fixed */
-#google_translate_element .goog-te-gadget-simple {
-    padding: 6px 8px;
-    border-radius: 8px;
-    background: white !important;
-    border: 1px solid #e0e0e0 !important;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+#google_translate_element{
+    position: static;
 }
 
-/* Only hide Google logo, not functional elements */
-#google_translate_element .goog-te-gadget-simple img[src*="google"] {
+#google_translate_element .goog-te-gadget-simple{
+    padding: 6px 8px;
+    border-radius: 8px;
+}
+
+#google_translate_element .goog-te-gadget-simple img{
     display: none;
 }
 
-/* Ensure dropdown remains functional */
-#google_translate_element .goog-te-gadget-simple .goog-te-combo {
-    pointer-events: auto !important;
-    cursor: pointer !important;
-    opacity: 1 !important;
-    background: white !important;
-    border: none !important;
-    padding: 8px 12px !important;
-    border-radius: 6px !important;
-    font-size: 14px !important;
-    color: #333 !important;
-}
-
-/* Ensure dropdown menu is accessible */
-#google_translate_element .goog-te-gadget-simple .goog-te-menu {
-    z-index: 10000 !important;
-    pointer-events: auto !important;
-    background: white !important;
-    border: 1px solid #e0e0e0 !important;
-    border-radius: 8px !important;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+#goog-gt-tt{
+    display: none !important;
 }
 </style>
