@@ -151,4 +151,18 @@
 #goog-gt-tt{
     display: none !important;
 }
+
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+body {
+    top: 0 !important;
+    position: static !important;
+}
+
+.skiptranslate iframe {
+    visibility: hidden !important;
+}
 </style>
