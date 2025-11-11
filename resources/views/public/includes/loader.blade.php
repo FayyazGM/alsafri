@@ -2,10 +2,12 @@
 <div class="preloader">
     <div class="loading-container">
       <div class="loading"></div>
-      <div id="loading-icon"><img src="{{ asset('assets/img/logo/preloader.png') }}" alt=""></div>
+      <div id="loading-icon">
+        <img src="{{ asset('admin_assets/myimages/logo.png') }}" alt="" style="height: 70px; width: 70px;margin-top:15px">
+      </div>
     </div>
-  </div>
-  <!--===== PRELOADER ENDS =======-->
+</div>
+<!--===== PRELOADER ENDS =======-->
   
   <!--===== PROGRESS STARTS=======-->
   <div class="paginacontainer">

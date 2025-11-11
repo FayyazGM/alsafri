@@ -5,7 +5,7 @@
 @section('content')
 <!--===== HERO AREA STARTS =======-->
 <div class="hero-main-section-area5">
-  <img src="{{ asset('assets/img/all-images/hero/hero-img8.png') }}" alt="" class="hero-bg1">
+  <img src="{{ asset('assets/pdf-images/img102.jpg') }}" alt="" class="hero-bg1">
     <div class="container">
       <div class="row align-items-center">
       <div class="col-xl-8 m-auto">
@@ -42,7 +42,7 @@
     <div class="col-xl-6" data-aos="zoom-in-up" data-aos-duration="100">
       <div class="about-images">
             <div class="img1">
-          <img src="{{ asset('assets/img/all-images/about/about-img8.png') }}" alt="">
+          <img src="{{ asset('assets/pdf-images/img103.jpg') }}" alt="">
             </div>
         <div class="experiance-area">
           <p>25 Years of Experience</p>
@@ -116,7 +116,7 @@
     <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
       <div class="service5-boxarea">
         <div class="img1">
-          <img src="{{ asset('assets/img/all-images/service/s-img8.png') }}" alt="">
+          <img src="{{ asset('assets/pdf-images/img104.jpg') }}" alt="" style="height: 400px; width: 100%; object-fit: cover;">
           </div>
         <div class="s-content-area">
           <div class="icons-area">
@@ -136,7 +136,7 @@
     <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="1100">
       <div class="service5-boxarea">
         <div class="img1">
-          <img src="{{ asset('assets/img/all-images/service/s-img9.png') }}" alt="">
+          <img src="{{ asset('assets/pdf-images/img112.jpg') }}" alt="" style="height: 400px; width: 100%; object-fit: cover;">
           </div>
         <div class="s-content-area">
           <div class="icons-area">
@@ -156,7 +156,7 @@
     <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="1200">
       <div class="service5-boxarea">
         <div class="img1">
-          <img src="{{ asset('assets/img/all-images/service/s-img10.png') }}" alt="">
+          <img src="{{ asset('assets/pdf-images/img113.jpg') }}" alt="" style="height: 400px; width: 100%; object-fit: cover;">
           </div>
         <div class="s-content-area">
           <div class="icons-area">
@@ -224,7 +224,7 @@
             </div>
           <div class="col-xl-6" data-aos="zoom-in-up" data-aos-duration="1000">
               <div class="images">
-                  <img src="{{ asset('assets/img/all-images/choose/ch-img7.png') }}" alt="">
+                  <img src="{{ asset('assets/pdf-images/img114.jpg') }}" alt="">
             </div>
             </div>
           </div>
@@ -251,7 +251,7 @@
                   <div class="testimonial3-slider-boxarea">
                       <div class="images">
                           <div class="img1">
-                              <img src="{{ asset('assets/img/all-images/testimonial/testi-img7.png') }}" alt="">
+                              <img src="{{ asset('assets/pdf-images/img115.jpg') }}" alt="">
                 </div>
                 </div>
                 <ul>
@@ -276,7 +276,7 @@
                   <div class="testimonial3-slider-boxarea">
                       <div class="images">
                           <div class="img1">
-                              <img src="{{ asset('assets/img/all-images/testimonial/testi-img8.png') }}" alt="">
+                              <img src="{{ asset('assets/pdf-images/img116.jpg') }}" alt="">
                 </div>
                 </div>
                 <ul>
@@ -301,7 +301,7 @@
                   <div class="testimonial3-slider-boxarea">
                       <div class="images">
                               <div class="img1">
-                                  <img src="{{ asset('assets/img/all-images/testimonial/testi-img7.png') }}" alt="">
+                                  <img src="{{ asset('assets/pdf-images/img115.jpg') }}" alt="">
                               </div>
                 </div>
                 <ul>
@@ -326,7 +326,7 @@
                   <div class="testimonial3-slider-boxarea">
                       <div class="images">
                           <div class="img1">
-                              <img src="{{ asset('assets/img/all-images/testimonial/testi-img7.png') }}" alt="">
+                              <img src="{{ asset('assets/pdf-images/img115.jpg') }}" alt="">
                           </div>
                 </div>
                 <ul>
@@ -713,7 +713,7 @@
     <div class="col-xl-6 col-md-6" data-aos="fade-left" data-aos-duration="900">
         <div class="vl-blog-1-item">
            <div class="vl-blog-1-thumb image-anime">
-            <img src="{{ asset('assets/img/all-images/blog/blog-img12.png') }}" alt="">
+            <img src="{{ asset('assets/pdf-images/img124.jpg') }}" alt="">
            </div>
            <div class="vl-blog-1-content">
             <div class="vl-blog-meta">
@@ -746,7 +746,7 @@
    <div class="col-xl-6 col-md-6" data-aos="fade-left" data-aos-duration="1000">
         <div class="vl-blog-1-item">
            <div class="vl-blog-1-thumb image-anime">
-            <img src="{{ asset('assets/img/all-images/blog/blog-img13.png') }}" alt="">
+            <img src="{{ asset('assets/pdf-images/img125.jpg') }}" alt="">
            </div>
            <div class="vl-blog-1-content">
             <div class="vl-blog-meta">

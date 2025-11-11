@@ -33,13 +33,13 @@
             <div class="col-xl-6">
                 <div class="all-images">
                     <div class="img1" data-aos="zoom-in" data-aos-duration="900">
-                    <img src="{{ asset('assets/img/all-images/about/about-img2.png') }}" alt="">
+                    <img src="{{ asset('assets/pdf-images/img126.jpg') }}" alt="" style="height: 250px">
                 </div>
                 <div class="img2 text-end" data-aos="zoom-in" data-aos-duration="1000">
-                    <img src="{{ asset('assets/img/all-images/about/about-img3.png') }}" alt="">
-                    <div class="play-btn-area">
+                    <img src="{{ asset('assets/pdf-images/img128.jpg') }}" alt="" style="height: 250px">
+                    {{-- <div class="play-btn-area">
                         <a href="https://www.youtube.com/watch?v=Y8XpQpW5OVY" class="popup-youtube"><i class="fa-solid fa-play"></i></a>
-                    </div>
+                    </div> --}}
                 </div>
                 </div>
             </div>
@@ -129,10 +129,10 @@
             <div class="col-xl-7">
                 <div class="images-app-area">
                     <div class="img1 text-end">
-                        <img src="{{ asset('assets/img/all-images/others/ap-img1.png') }}" alt="">
+                        <img src="{{ asset('assets/pdf-images/img130.jpg') }}" alt="" style="height: 250px">
                     </div>
                     <div class="img2">
-                        <img src="{{ asset('assets/img/all-images/others/ap-img2.png') }}" alt="">
+                        <img src="{{ asset('assets/pdf-images/img132.jpg') }}" alt="" style="height: 250px">
                     </div>
                 </div>
             </div>
@@ -185,10 +185,10 @@
                 <div class="choose-images-area">
                     <img src="{{ asset('assets/img/elements/elements10.png') }}" alt="" class="elements10 aniamtion-key-2">
                     <div class="img1" data-aos="fade-right" data-aos-duration="1000">
-                        <img src="{{ asset('assets/img/all-images/choose/ch-img1.png') }}" alt="">
+                        <img src="{{ asset('assets/pdf-images/img136.jpg') }}" alt="" style="height: 250px">
                     </div>
                     <div class="img2 text-end" data-aos="fade-left" data-aos-duration="1000">
-                        <img src="{{ asset('assets/img/all-images/choose/ch-img2.png') }}" alt="">
+                        <img src="{{ asset('assets/pdf-images/img137.jpg') }}" alt="" style="height: 250px">
                     </div>
                 </div>
             </div>
@@ -228,7 +228,7 @@
                         <div class="content-man-area">
                             <div class="images">
                                 <div class="img1">
-                                    <img src="{{ asset('assets/img/all-images/testimonial/testi-img7.png') }}" alt="">
+                                    <img src="{{ asset('assets/pdf-images/img138.jpg') }}" alt="">
                                 </div>
                                 <div class="icons">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -258,7 +258,7 @@
                         <div class="content-man-area">
                             <div class="images">
                                 <div class="img1">
-                                    <img src="{{ asset('assets/img/all-images/testimonial/testi-img8.png') }}" alt="">
+                                    <img src="{{ asset('assets/pdf-images/img139.jpg') }}" alt="">
                                 </div>
                                 <div class="icons">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -288,7 +288,7 @@
                         <div class="content-man-area">
                             <div class="images">
                                 <div class="img1">
-                                    <img src="{{ asset('assets/img/all-images/testimonial/testi-img7.png') }}" alt="">
+                                    <img src="{{ asset('assets/pdf-images/img138.jpg') }}" alt="">
                                 </div>
                                 <div class="icons">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">

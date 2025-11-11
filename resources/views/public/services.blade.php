@@ -32,7 +32,7 @@
     <div class="row">
       <div class="col-xl-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="900">
         <div class="service-main-boxarea">
-          <img src="{{ asset('assets/img/all-images/service/s-img1.png') }}" alt="" class="s-img1">
+          <img src="{{ asset('assets/pdf-images/img143.jpg') }}" alt="" class="s-img1">
           <div class="icons">
             <img src="{{ asset('assets/img/icons/s-icons1.svg') }}" alt="">
           </div>
@@ -49,7 +49,7 @@
 
       <div class="col-xl-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="service-main-boxarea">
-          <img src="{{ asset('assets/img/all-images/service/s-img1.png') }}" alt="" class="s-img1">
+          <img src="{{ asset('assets/pdf-images/img143.jpg') }}" alt="" class="s-img1">
           <div class="icons">
             <img src="{{ asset('assets/img/icons/s-icons2.svg') }}" alt="">
           </div>
@@ -66,7 +66,7 @@
 
       <div class="col-xl-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="1200">
         <div class="service-main-boxarea">
-          <img src="{{ asset('assets/img/all-images/service/s-img1.png') }}" alt="" class="s-img1">
+          <img src="{{ asset('assets/pdf-images/img143.jpg') }}" alt="" class="s-img1">
           <div class="icons">
             <img src="{{ asset('assets/img/icons/s-icons3.svg') }}" alt="">
           </div>
@@ -83,7 +83,7 @@
 
       <div class="col-xl-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="900">
         <div class="service-main-boxarea">
-          <img src="{{ asset('assets/img/all-images/service/s-img1.png') }}" alt="" class="s-img1">
+          <img src="{{ asset('assets/pdf-images/img143.jpg') }}" alt="" class="s-img1">
           <div class="icons">
             <img src="{{ asset('assets/img/icons/s2-icons1.svg') }}" alt="">
           </div>
@@ -100,7 +100,7 @@
 
       <div class="col-xl-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="service-main-boxarea">
-          <img src="{{ asset('assets/img/all-images/service/s-img1.png') }}" alt="" class="s-img1">
+          <img src="{{ asset('assets/pdf-images/img143.jpg') }}" alt="" class="s-img1">
           <div class="icons">
             <img src="{{ asset('assets/img/icons/s2-icons2.svg') }}" alt="">
           </div>
@@ -117,7 +117,7 @@
 
       <div class="col-xl-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="1200">
         <div class="service-main-boxarea">
-          <img src="{{ asset('assets/img/all-images/service/s-img1.png') }}" alt="" class="s-img1">
+          <img src="{{ asset('assets/pdf-images/img143.jpg') }}" alt="" class="s-img1">
           <div class="icons">
             <img src="{{ asset('assets/img/icons/s2-icons3.svg') }}" alt="">
           </div>
@@ -133,7 +133,7 @@
       </div>
       <div class="col-xl-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="900">
         <div class="service-main-boxarea">
-          <img src="{{ asset('assets/img/all-images/service/s-img1.png') }}" alt="" class="s-img1">
+          <img src="{{ asset('assets/pdf-images/img143.jpg') }}" alt="" class="s-img1">
           <div class="icons">
             <img src="{{ asset('assets/img/icons/s3-icons1.svg') }}" alt="">
           </div>
@@ -150,7 +150,7 @@
 
       <div class="col-xl-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="service-main-boxarea">
-          <img src="{{ asset('assets/img/all-images/service/s-img1.png') }}" alt="" class="s-img1">
+          <img src="{{ asset('assets/pdf-images/img143.jpg') }}" alt="" class="s-img1">
           <div class="icons">
             <img src="{{ asset('assets/img/icons/s3-icons2.svg') }}" alt="">
           </div>
@@ -167,7 +167,7 @@
 
       <div class="col-xl-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="1200">
         <div class="service-main-boxarea">
-          <img src="{{ asset('assets/img/all-images/service/s-img1.png') }}" alt="" class="s-img1">
+          <img src="{{ asset('assets/pdf-images/img143.jpg') }}" alt="" class="s-img1">
           <div class="icons">
             <img src="{{ asset('assets/img/icons/s3-icons3.svg') }}" alt="">
           </div>

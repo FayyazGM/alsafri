@@ -37,8 +37,6 @@
 
 
 <div class="vl-footer1-section-area">
-    <img src="{{ asset('assets/img/elements/elements2.png') }}" alt="" class="elements2">
-    <img src="{{ asset('assets/img/elements/elements3.png') }}" alt="" class="elements3">
     <div class="container">
       <div class="row">
         <div class="col-xl-3 col-md-6">
