@@ -100,11 +100,19 @@
                         <div class="space16"></div>
                         <div class="row">
                             @foreach($project->gallery_images as $image)
-                                <div class="col-xl-4 col-md-6 mb-3">
-                                    <div class="project-gallery-item">
-                                        <img src="{{ $image['url'] }}" alt="{{ $image['alt'] ?? $project->title }}" class="img-fluid">
+                                @php
+                                    $imageUrl = $image['url'] ?? '';
+                                    if ($imageUrl) {
+                                        $imageUrl = Str::startsWith($imageUrl, ['http://', 'https://']) ? $imageUrl : Storage::url($imageUrl);
+                                    }
+                                @endphp
+                                @if(!empty($imageUrl))
+                                    <div class="col-xl-4 col-md-6 mb-3">
+                                        <div class="project-gallery-item">
+                                            <img src="{{ $imageUrl }}" alt="{{ $image['alt'] ?? $project->title }}" class="img-fluid">
+                                        </div>
                                     </div>
-                                </div>
+                                @endif
                             @endforeach
                         </div>
                     @endif

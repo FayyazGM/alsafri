@@ -64,7 +64,7 @@
                 <div class="circle">
                 <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
                 <path d="M62 31.0009C62 48.1217 48.1208 62.0009 31 62.0009C13.8792 62.0009 0 48.1217 0 31.0009C0 13.88 13.8792 0.000854492 31 0.000854492C48.1208 0.000854492 62 13.88 62 31.0009ZM4.65 31.0009C4.65 45.5536 16.4473 57.3509 31 57.3509C45.5527 57.3509 57.35 45.5536 57.35 31.0009C57.35 16.4482 45.5527 4.65085 31 4.65085C16.4473 4.65085 4.65 16.4482 4.65 31.0009Z" fill="#F4F4F9"/>
-                <path d="M58.2715 39.8619C59.4928 40.2587 60.1692 41.5747 59.6821 42.7628C57.1918 48.8357 52.828 53.9823 47.1975 57.4327C40.904 61.2894 33.4409 62.7739 26.1505 61.6192C18.8602 60.4645 12.2211 56.7465 7.42742 51.1337C2.63371 45.521 1.55448e-06 38.3821 0 31.0009C-1.55448e-06 23.6197 2.63371 16.4807 7.42741 10.868C12.2211 5.25526 18.8602 1.53719 26.1505 0.382517C33.4408 -0.772158 40.9039 0.712341 47.1974 4.569C52.828 8.01941 57.1918 13.166 59.682 19.2389C60.1692 20.427 59.4928 21.743 58.2715 22.1398C57.0503 22.5366 55.7482 21.863 55.2453 20.6815C53.108 15.6595 49.4541 11.4055 44.7678 8.53378C39.4184 5.25562 33.0747 3.99379 26.8779 4.97527C20.6812 5.95674 15.0379 9.1171 10.9633 13.8879C6.88865 18.6587 4.65 24.7268 4.65 31.0009C4.65 37.2749 6.88866 43.343 10.9633 48.1138C15.038 52.8846 20.6812 56.045 26.878 57.0264C33.0747 58.0079 39.4184 56.7461 44.7678 53.4679C49.4541 50.5962 53.108 46.3422 55.2453 41.3202C55.7482 40.1387 57.0503 39.4651 58.2715 39.8619Z" fill="#E8040F"/>
+                <path d="M58.2715 39.8619C59.4928 40.2587 60.1692 41.5747 59.6821 42.7628C57.1918 48.8357 52.828 53.9823 47.1975 57.4327C40.904 61.2894 33.4409 62.7739 26.1505 61.6192C18.8602 60.4645 12.2211 56.7465 7.42742 51.1337C2.63371 45.521 1.55448e-06 38.3821 0 31.0009C-1.55448e-06 23.6197 2.63371 16.4807 7.42741 10.868C12.2211 5.25526 18.8602 1.53719 26.1505 0.382517C33.4408 -0.772158 40.9039 0.712341 47.1974 4.569C52.828 8.01941 57.1918 13.166 59.682 19.2389C60.1692 20.427 59.4928 21.743 58.2715 22.1398C57.0503 22.5366 55.7482 21.863 55.2453 20.6815C53.108 15.6595 49.4541 11.4055 44.7678 8.53378C39.4184 5.25562 33.0747 3.99379 26.8779 4.97527C20.6812 5.95674 15.0379 9.1171 10.9633 13.8879C6.88865 18.6587 4.65 24.7268 4.65 31.0009C4.65 37.2749 6.88866 43.343 10.9633 48.1138C15.038 52.8846 20.6812 56.045 26.878 57.0264C33.0747 58.0079 39.4184 56.7461 44.7678 53.4679C49.4541 50.5962 53.108 46.3422 55.2453 41.3202C55.7482 40.1387 57.0503 39.4651 58.2715 39.8619Z" fill="#ba9269"/>
               </svg>
                   <h3><span class="counter">90</span>%</h3>
             </div>
@@ -79,7 +79,7 @@
                 <div class="circle">
                   <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
                   <path d="M62 31.0009C62 48.1217 48.1208 62.0009 31 62.0009C13.8792 62.0009 0 48.1217 0 31.0009C0 13.88 13.8792 0.000854492 31 0.000854492C48.1208 0.000854492 62 13.88 62 31.0009ZM4.65 31.0009C4.65 45.5536 16.4473 57.3509 31 57.3509C45.5527 57.3509 57.35 45.5536 57.35 31.0009C57.35 16.4482 45.5527 4.65085 31 4.65085C16.4473 4.65085 4.65 16.4482 4.65 31.0009Z" fill="#F4F4F9"/>
-                  <path d="M58.2715 39.8619C59.4928 40.2587 60.1692 41.5747 59.6821 42.7627C57.3484 48.4537 53.366 53.3397 48.2227 56.7764C42.433 60.645 35.5095 62.4516 28.5678 61.9053C21.626 61.359 15.0704 58.4915 9.95718 53.7649C4.84395 49.0382 1.47094 42.7278 0.381662 35.8503C-0.707621 28.9729 0.550263 21.9289 3.95262 15.8536C7.35498 9.77824 12.7037 5.02529 19.1368 2.36059C25.57 -0.304107 32.7129 -0.725348 39.4146 1.16474C45.3682 2.84383 50.6656 6.26011 54.6436 10.9514C55.4741 11.9308 55.2374 13.3914 54.1986 14.1461C53.1597 14.9009 51.7131 14.6626 50.8698 13.6943C47.5152 9.84277 43.1004 7.03563 38.1525 5.64016C32.456 4.03358 26.3845 4.39164 20.9163 6.65663C15.4481 8.92162 10.9017 12.9616 8.00973 18.1257C5.11772 23.2897 4.04852 29.2771 4.97441 35.1229C5.9003 40.9687 8.76736 46.3326 13.1136 50.3503C17.4598 54.3679 23.0321 56.8053 28.9326 57.2696C34.8331 57.734 40.718 56.1983 45.6393 52.9101C49.9139 50.0539 53.2451 46.0199 55.2453 41.3202C55.7482 40.1387 57.0503 39.4651 58.2715 39.8619Z" fill="#E8040F"/>
+                  <path d="M58.2715 39.8619C59.4928 40.2587 60.1692 41.5747 59.6821 42.7627C57.3484 48.4537 53.366 53.3397 48.2227 56.7764C42.433 60.645 35.5095 62.4516 28.5678 61.9053C21.626 61.359 15.0704 58.4915 9.95718 53.7649C4.84395 49.0382 1.47094 42.7278 0.381662 35.8503C-0.707621 28.9729 0.550263 21.9289 3.95262 15.8536C7.35498 9.77824 12.7037 5.02529 19.1368 2.36059C25.57 -0.304107 32.7129 -0.725348 39.4146 1.16474C45.3682 2.84383 50.6656 6.26011 54.6436 10.9514C55.4741 11.9308 55.2374 13.3914 54.1986 14.1461C53.1597 14.9009 51.7131 14.6626 50.8698 13.6943C47.5152 9.84277 43.1004 7.03563 38.1525 5.64016C32.456 4.03358 26.3845 4.39164 20.9163 6.65663C15.4481 8.92162 10.9017 12.9616 8.00973 18.1257C5.11772 23.2897 4.04852 29.2771 4.97441 35.1229C5.9003 40.9687 8.76736 46.3326 13.1136 50.3503C17.4598 54.3679 23.0321 56.8053 28.9326 57.2696C34.8331 57.734 40.718 56.1983 45.6393 52.9101C49.9139 50.0539 53.2451 46.0199 55.2453 41.3202C55.7482 40.1387 57.0503 39.4651 58.2715 39.8619Z" fill="#ba9269"/>
                 </svg>
                   <h3><span class="counter">85</span>%</h3>
             </div>
@@ -120,8 +120,8 @@
           </div>
         <div class="s-content-area">
           <div class="icons-area">
-            <img src="{{ asset('assets/img/icons/s5-icons3.svg') }}" alt="">
-            <h4>01</h4>
+            {{-- <img src="{{ asset('assets/img/icons/s5-icons3.svg') }}" alt=""> --}}
+            {{-- <h4>01</h4> --}}
           </div>
           <div class="space24"></div>
           <a href="#services" class="title">Elevator & Escalator Cladding</a>
@@ -140,8 +140,8 @@
           </div>
         <div class="s-content-area">
           <div class="icons-area">
-            <img src="{{ asset('assets/img/icons/s5-icons2.svg') }}" alt="">
-            <h4>01</h4>
+            {{-- <img src="{{ asset('assets/img/icons/s5-icons2.svg') }}" alt=""> --}}
+            {{-- <h4>01</h4> --}}
           </div>
           <div class="space24"></div>
           <a href="#services" class="title">Steel Structures & Handrails</a>
@@ -160,8 +160,8 @@
           </div>
         <div class="s-content-area">
           <div class="icons-area">
-            <img src="{{ asset('assets/img/icons/s5-icons1.svg') }}" alt="">
-            <h4>01</h4>
+            {{-- <img src="{{ asset('assets/img/icons/s5-icons1.svg') }}" alt=""> --}}
+            {{-- <h4>01</h4> --}}
           </div>
           <div class="space24"></div>
           <a href="#services" class="title">Water Tanks & Fabrication</a>
@@ -251,7 +251,7 @@
                   <div class="testimonial3-slider-boxarea">
                       <div class="images">
                           <div class="img1">
-                              <img src="{{ asset('assets/pdf-images/img115.jpg') }}" alt="">
+                              <img src="{{ asset('assets/img/logos/kone.png') }}" alt="Kone logo">
                 </div>
                 </div>
                 <ul>
@@ -276,7 +276,7 @@
                   <div class="testimonial3-slider-boxarea">
                       <div class="images">
                           <div class="img1">
-                              <img src="{{ asset('assets/pdf-images/img116.jpg') }}" alt="">
+                              <img src="{{ asset('assets/img/logos/fujitec.png') }}" alt="Fujitec logo">
                 </div>
                 </div>
                 <ul>
@@ -301,7 +301,7 @@
                   <div class="testimonial3-slider-boxarea">
                       <div class="images">
                               <div class="img1">
-                                  <img src="{{ asset('assets/pdf-images/img115.jpg') }}" alt="">
+                                  <img src="{{ asset('assets/img/logos/schindler.png') }}" alt="Schindler logo">
                               </div>
                 </div>
                 <ul>
@@ -326,7 +326,7 @@
                   <div class="testimonial3-slider-boxarea">
                       <div class="images">
                           <div class="img1">
-                              <img src="{{ asset('assets/pdf-images/img115.jpg') }}" alt="">
+                              <img src="{{ asset('assets/img/logos/otis.png') }}" alt="Otis logo">
                           </div>
                 </div>
                 <ul>
@@ -430,8 +430,8 @@
     </div>
 <!--===== TEAM AREA END =======-->
 
-<!--===== PRICING AREA STARTS =======-->
-<div class="pricing1 sp2 common-bg">
+<!--===== PROJECTS AREA STARTS =======-->
+<div class="pricing1 sp2 common-bg" id="projects">
   <div class="container">
     <div class="row">
       <div class="col-xl-6 m-auto">
@@ -443,259 +443,82 @@
       </div>
     </div>
 
-      <div class="row">
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="1000">
-              <div class="pricing-box">
-                  <h3>Haram Makkah Projects</h3>
-          <div class="space24"></div>
-                  <h2>600+<span>Escalators</span></h2>
-          <div class="space24"></div>
-                  <p>Completed escalator cladding projects for the Holy Haram in Makkah, including Clock Tower and surrounding areas.</p>
-                  <div class="space24"></div>
-                  <h3>Featured Included:</h3>
-                  <div class="space8"></div>
-                  <ul>
-                      <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g clip-path="url(#clip0_3136_57331)">
-                          <mask id="mask0_3136_57331" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-                          <path d="M9.9974 18.3346C11.092 18.3361 12.176 18.1212 13.1872 17.7023C14.1985 17.2834 15.117 16.6688 15.8899 15.8938C16.6649 15.1209 17.2795 14.2024 17.6984 13.1911C18.1172 12.1799 18.3322 11.0959 18.3307 10.0013C18.3321 8.90676 18.1172 7.82272 17.6983 6.81149C17.2795 5.80026 16.6649 4.88177 15.8899 4.10881C15.117 3.33382 14.1985 2.71923 13.1872 2.30034C12.176 1.88146 11.092 1.66656 9.9974 1.66798C8.90285 1.66658 7.81881 1.8815 6.80758 2.30038C5.79635 2.71926 4.87786 3.33384 4.1049 4.10881C3.32993 4.88177 2.71535 5.80026 2.29647 6.81149C1.87759 7.82272 1.66267 8.90676 1.66407 10.0013C1.66265 11.0959 1.87756 12.1799 2.29644 13.1911C2.71532 14.2024 3.32991 15.1209 4.1049 15.8938C4.87786 16.6688 5.79635 17.2834 6.80758 17.7022C7.81881 18.1211 8.90285 18.336 9.9974 18.3346Z" fill="white" stroke="white" stroke-width="1.66667" stroke-linejoin="round"/>
-                          <path d="M6.66406 10L9.16406 12.5L14.1641 7.5" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-                          </mask>
-                          <g mask="url(#mask0_3136_57331)">
-                          <path d="M0 0H20V20H0V0Z" fill="#0F0D0D"/>
-                          </g>
-                      </g>
-                      <defs>
-                          <clipPath id="clip0_3136_57331">
-                          <rect width="20" height="20" fill="white"/>
-                          </clipPath>
-                      </defs>
-                      </svg>Energy efficiency consultation</li>
-                      <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g clip-path="url(#clip0_3136_57331)">
-                          <mask id="mask0_3136_57331a" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-                          <path d="M9.9974 18.3346C11.092 18.3361 12.176 18.1212 13.1872 17.7023C14.1985 17.2834 15.117 16.6688 15.8899 15.8938C16.6649 15.1209 17.2795 14.2024 17.6984 13.1911C18.1172 12.1799 18.3322 11.0959 18.3307 10.0013C18.3321 8.90676 18.1172 7.82272 17.6983 6.81149C17.2795 5.80026 16.6649 4.88177 15.8899 4.10881C15.117 3.33382 14.1985 2.71923 13.1872 2.30034C12.176 1.88146 11.092 1.66656 9.9974 1.66798C8.90285 1.66658 7.81881 1.8815 6.80758 2.30038C5.79635 2.71926 4.87786 3.33384 4.1049 4.10881C3.32993 4.88177 2.71535 5.80026 2.29647 6.81149C1.87759 7.82272 1.66267 8.90676 1.66407 10.0013C1.66265 11.0959 1.87756 12.1799 2.29644 13.1911C2.71532 14.2024 3.32991 15.1209 4.1049 15.8938C4.87786 16.6688 5.79635 17.2834 6.80758 17.7022C7.81881 18.1211 8.90285 18.336 9.9974 18.3346Z" fill="white" stroke="white" stroke-width="1.66667" stroke-linejoin="round"/>
-                          <path d="M6.66406 10L9.16406 12.5L14.1641 7.5" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-                          </mask>
-                          <g mask="url(#mask0_3136_57331)">
-                          <path d="M0 0H20V20H0V0Z" fill="#0F0D0D"/>
-                          </g>
-                      </g>
-                      <defs>
-                          <clipPath id="clip0_3136_57331a">
-                          <rect width="20" height="20" fill="white"/>
-                          </clipPath>
-                      </defs>
-                      </svg>Reliable electricity for small</li>
-                      <li> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g clip-path="url(#clip0_3136_57331)">
-                          <mask id="mask0_3136_57331b" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-                          <path d="M9.9974 18.3346C11.092 18.3361 12.176 18.1212 13.1872 17.7023C14.1985 17.2834 15.117 16.6688 15.8899 15.8938C16.6649 15.1209 17.2795 14.2024 17.6984 13.1911C18.1172 12.1799 18.3322 11.0959 18.3307 10.0013C18.3321 8.90676 18.1172 7.82272 17.6983 6.81149C17.2795 5.80026 16.6649 4.88177 15.8899 4.10881C15.117 3.33382 14.1985 2.71923 13.1872 2.30034C12.176 1.88146 11.092 1.66656 9.9974 1.66798C8.90285 1.66658 7.81881 1.8815 6.80758 2.30038C5.79635 2.71926 4.87786 3.33384 4.1049 4.10881C3.32993 4.88177 2.71535 5.80026 2.29647 6.81149C1.87759 7.82272 1.66267 8.90676 1.66407 10.0013C1.66265 11.0959 1.87756 12.1799 2.29644 13.1911C2.71532 14.2024 3.32991 15.1209 4.1049 15.8938C4.87786 16.6688 5.79635 17.2834 6.80758 17.7022C7.81881 18.1211 8.90285 18.336 9.9974 18.3346Z" fill="white" stroke="white" stroke-width="1.66667" stroke-linejoin="round"/>
-                          <path d="M6.66406 10L9.16406 12.5L14.1641 7.5" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-                          </mask>
-                          <g mask="url(#mask0_3136_57331)">
-                          <path d="M0 0H20V20H0V0Z" fill="#0F0D0D"/>
-                          </g>
-                      </g>
-                      <defs>
-                          <clipPath id="clip0_3136_57331b">
-                          <rect width="20" height="20" fill="white"/>
-                          </clipPath>
-                      </defs>
-                      </svg>Add solar panel integration</li>
-                      <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g clip-path="url(#clip0_3136_57331)">
-                          <mask id="mask0_3136_57331c" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-                          <path d="M9.9974 18.3346C11.092 18.3361 12.176 18.1212 13.1872 17.7023C14.1985 17.2834 15.117 16.6688 15.8899 15.8938C16.6649 15.1209 17.2795 14.2024 17.6984 13.1911C18.1172 12.1799 18.3322 11.0959 18.3307 10.0013C18.3321 8.90676 18.1172 7.82272 17.6983 6.81149C17.2795 5.80026 16.6649 4.88177 15.8899 4.10881C15.117 3.33382 14.1985 2.71923 13.1872 2.30034C12.176 1.88146 11.092 1.66656 9.9974 1.66798C8.90285 1.66658 7.81881 1.8815 6.80758 2.30038C5.79635 2.71926 4.87786 3.33384 4.1049 4.10881C3.32993 4.88177 2.71535 5.80026 2.29647 6.81149C1.87759 7.82272 1.66267 8.90676 1.66407 10.0013C1.66265 11.0959 1.87756 12.1799 2.29644 13.1911C2.71532 14.2024 3.32991 15.1209 4.1049 15.8938C4.87786 16.6688 5.79635 17.2834 6.80758 17.7022C7.81881 18.1211 8.90285 18.336 9.9974 18.3346Z" fill="white" stroke="white" stroke-width="1.66667" stroke-linejoin="round"/>
-                          <path d="M6.66406 10L9.16406 12.5L14.1641 7.5" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-                          </mask>
-                          <g mask="url(#mask0_3136_57331)">
-                          <path d="M0 0H20V20H0V0Z" fill="#0F0D0D"/>
-                          </g>
-                      </g>
-                      <defs>
-                          <clipPath id="clip0_3136_57331c">
-                          <rect width="20" height="20" fill="white"/>
-                          </clipPath>
-                      </defs>
-                      </svg>24/7 technical support</li>
-                  </ul>
-                  <div class="space32"></div>
-                  <div class="bnt-area1">
-                      <a href="{{ route('contact') }}" class="vl-btn1">Choose A Plan <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
+    @php
+        $projectsToShow = collect();
+        if (isset($featuredProjects)) {
+            foreach ($featuredProjects as $project) {
+                $projectsToShow->push($project);
+            }
+        }
+        if (isset($activeProjects)) {
+            foreach ($activeProjects as $project) {
+                if (!$projectsToShow->contains('id', $project->id)) {
+                    $projectsToShow->push($project);
+                }
+            }
+        }
+        $projectsToShow = $projectsToShow->take(6);
+    @endphp
 
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="1100">
-              <div class="pricing-box active">
-                  <h3>Major Shopping Malls</h3>
-          <div class="space24"></div>
-                  <h2>200+<span>Elevators</span></h2>
-                  <div class="space24"></div>
-                  <p>Elevator cabin and door cladding for major shopping malls including Star Avenue, Zahra Mall, and Lulu Harmain.</p>
-                  <div class="space24"></div>
-                  <h3>Featured Included:</h3>
-                  <div class="space8"></div>
-                  <ul>
-                      <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                          <g clip-path="url(#clip0_3136_57402)">
-                              <mask id="mask0_3136_57402" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-                              <path d="M9.9974 18.3346C11.092 18.3361 12.176 18.1212 13.1872 17.7023C14.1985 17.2834 15.117 16.6688 15.8899 15.8938C16.6649 15.1209 17.2795 14.2024 17.6984 13.1911C18.1172 12.1799 18.3322 11.0959 18.3307 10.0013C18.3321 8.90676 18.1172 7.82272 17.6983 6.81149C17.2795 5.80026 16.6649 4.88177 15.8899 4.10881C15.117 3.33382 14.1985 2.71923 13.1872 2.30034C12.176 1.88146 11.092 1.66656 9.9974 1.66798C8.90285 1.66658 7.81881 1.8815 6.80758 2.30038C5.79635 2.71926 4.87786 3.33384 4.1049 4.10881C3.32993 4.88177 2.71535 5.80026 2.29647 6.81149C1.87759 7.82272 1.66267 8.90676 1.66407 10.0013C1.66265 11.0959 1.87756 12.1799 2.29644 13.1911C2.71532 14.2024 3.32991 15.1209 4.1049 15.8938C4.87786 16.6688 5.79635 17.2834 6.80758 17.7022C7.81881 18.1211 8.90285 18.336 9.9974 18.3346Z" fill="white" stroke="white" stroke-width="1.66667" stroke-linejoin="round"/>
-                              <path d="M6.66406 10L9.16406 12.5L14.1641 7.5" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-                              </mask>
-                              <g mask="url(#mask0_3136_57402)">
-                              <path d="M0 0H20V20H0V0Z" fill="white"/>
-                              </g>
-                          </g>
-                          <defs>
-                              <clipPath id="clip0_3136_57402">
-                              <rect width="20" height="20" fill="white"/>
-                              </clipPath>
-                          </defs>
-                          </svg>Add solar or wind energy integration</li>
-                      <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g clip-path="url(#clip0_3136_57402)">
-                          <mask id="mask0_3136_57402d" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-                          <path d="M9.9974 18.3346C11.092 18.3361 12.176 18.1212 13.1872 17.7023C14.1985 17.2834 15.117 16.6688 15.8899 15.8938C16.6649 15.1209 17.2795 14.2024 17.6984 13.1911C18.1172 12.1799 18.3322 11.0959 18.3307 10.0013C18.3321 8.90676 18.1172 7.82272 17.6983 6.81149C17.2795 5.80026 16.6649 4.88177 15.8899 4.10881C15.117 3.33382 14.1985 2.71923 13.1872 2.30034C12.176 1.88146 11.092 1.66656 9.9974 1.66798C8.90285 1.66658 7.81881 1.8815 6.80758 2.30038C5.79635 2.71926 4.87786 3.33384 4.1049 4.10881C3.32993 4.88177 2.71535 5.80026 2.29647 6.81149C1.87759 7.82272 1.66267 8.90676 1.66407 10.0013C1.66265 11.0959 1.87756 12.1799 2.29644 13.1911C2.71532 14.2024 3.32991 15.1209 4.1049 15.8938C4.87786 16.6688 5.79635 17.2834 6.80758 17.7022C7.81881 18.1211 8.90285 18.336 9.9974 18.3346Z" fill="white" stroke="white" stroke-width="1.66667" stroke-linejoin="round"/>
-                          <path d="M6.66406 10L9.16406 12.5L14.1641 7.5" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-                          </mask>
-                          <g mask="url(#mask0_3136_57402)">
-                          <path d="M0 0H20V20H0V0Z" fill="white"/>
-                          </g>
-                      </g>
-                      <defs>
-                          <clipPath id="clip0_3136_57402d">
-                          <rect width="20" height="20" fill="white"/>
-                          </clipPath>
-                      </defs>
-                      </svg>Energy usage analytics to optimize</li>
-                      <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g clip-path="url(#clip0_3136_57402)">
-                          <mask id="mask0_3136_57402e" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-                          <path d="M9.9974 18.3346C11.092 18.3361 12.176 18.1212 13.1872 17.7023C14.1985 17.2834 15.117 16.6688 15.8899 15.8938C16.6649 15.1209 17.2795 14.2024 17.6984 13.1911C18.1172 12.1799 18.3322 11.0959 18.3307 10.0013C18.3321 8.90676 18.1172 7.82272 17.6983 6.81149C17.2795 5.80026 16.6649 4.88177 15.8899 4.10881C15.117 3.33382 14.1985 2.71923 13.1872 2.30034C12.176 1.88146 11.092 1.66656 9.9974 1.66798C8.90285 1.66658 7.81881 1.8815 6.80758 2.30038C5.79635 2.71926 4.87786 3.33384 4.1049 4.10881C3.32993 4.88177 2.71535 5.80026 2.29647 6.81149C1.87759 7.82272 1.66267 8.90676 1.66407 10.0013C1.66265 11.0959 1.87756 12.1799 2.29644 13.1911C2.71532 14.2024 3.32991 15.1209 4.1049 15.8938C4.87786 16.6688 5.79635 17.2834 6.80758 17.7022C7.81881 18.1211 8.90285 18.336 9.9974 18.3346Z" fill="white" stroke="white" stroke-width="1.66667" stroke-linejoin="round"/>
-                          <path d="M6.66406 10L9.16406 12.5L14.1641 7.5" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-                          </mask>
-                          <g mask="url(#mask0_3136_57402)">
-                          <path d="M0 0H20V20H0V0Z" fill="white"/>
-                          </g>
-                      </g>
-                      <defs>
-                          <clipPath id="clip0_3136_57402e">
-                          <rect width="20" height="20" fill="white"/>
-                          </clipPath>
-                      </defs>
-                      </svg>Reliable power for small offices</li>
-                      <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g clip-path="url(#clip0_3136_57402)">
-                          <mask id="mask0_3136_57402f" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-                          <path d="M9.9974 18.3346C11.092 18.3361 12.176 18.1212 13.1872 17.7023C14.1985 17.2834 15.117 16.6688 15.8899 15.8938C16.6649 15.1209 17.2795 14.2024 17.6984 13.1911C18.1172 12.1799 18.3322 11.0959 18.3307 10.0013C18.3321 8.90676 18.1172 7.82272 17.6983 6.81149C17.2795 5.80026 16.6649 4.88177 15.8899 4.10881C15.117 3.33382 14.1985 2.71923 13.1872 2.30034C12.176 1.88146 11.092 1.66656 9.9974 1.66798C8.90285 1.66658 7.81881 1.8815 6.80758 2.30038C5.79635 2.71926 4.87786 3.33384 4.1049 4.10881C3.32993 4.88177 2.71535 5.80026 2.29647 6.81149C1.87759 7.82272 1.66267 8.90676 1.66407 10.0013C1.66265 11.0959 1.87756 12.1799 2.29644 13.1911C2.71532 14.2024 3.32991 15.1209 4.1049 15.8938C4.87786 16.6688 5.79635 17.2834 6.80758 17.7022C7.81881 18.1211 8.90285 18.336 9.9974 18.3346Z" fill="white" stroke="white" stroke-width="1.66667" stroke-linejoin="round"/>
-                          <path d="M6.66406 10L9.16406 12.5L14.1641 7.5" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-                          </mask>
-                          <g mask="url(#mask0_3136_57402)">
-                          <path d="M0 0H20V20H0V0Z" fill="white"/>
-                          </g>
-                      </g>
-                      <defs>
-                          <clipPath id="clip0_3136_57402f">
-                          <rect width="20" height="20" fill="white"/>
-                          </clipPath>
-                      </defs>
-                      </svg>24/7 emergency support</li>
-                  </ul>
-                  <div class="space32"></div>
-                  <div class="bnt-area1">
-                      <a href="{{ route('contact') }}" class="vl-btn1">Choose A Plan <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
+    <div class="row">
+        @forelse($projectsToShow as $project)
+            @php
+                $features = collect($project->features)->filter()->values();
+                $primaryImage = $project->featured_image_url ?? asset('assets/img/all-images/service/s-img15.png');
+            @endphp
+            <div class="col-xl-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="1000">
+                <div class="pricing-box {{ $loop->first ? 'active' : '' }}">
+                    <div class="img1 mb-3">
+                        <img src="{{ $primaryImage }}" alt="{{ $project->title }}" style="width: 100%; height: 220px; object-fit: cover; border-radius: 12px;">
+                    </div>
+                    <h3>{{ $project->category ?? 'Project' }}</h3>
+                    <div class="space24"></div>
+                    <h2>{{ $project->title }}</h2>
+                    <div class="space24"></div>
+                    @if(!empty($project->description))
+                        <p>{{ \Illuminate\Support\Str::limit($project->description, 150) }}</p>
+                        <div class="space24"></div>
+                    @endif
+                    @if($features->isNotEmpty())
+                        <h3>Key Features</h3>
+                        <div class="space8"></div>
+                        <ul>
+                            @foreach($features->take(4) as $feature)
+                                <li><i class="fa-solid fa-check me-2 text-primary"></i>{{ $feature }}</li>
+                            @endforeach
+                            @if($features->count() > 4)
+                                <li><i class="fa-solid fa-check me-2 text-primary"></i>+ {{ $features->count() - 4 }} more</li>
+                            @endif
+                        </ul>
+                        <div class="space24"></div>
+                    @endif
+                    <div class="project-meta">
+                        @if($project->client_name)
+                            <p><strong>Client:</strong> {{ $project->client_name }}</p>
+                        @endif
+                        @if($project->project_location)
+                            <p><strong>Location:</strong> {{ $project->project_location }}</p>
+                        @endif
+                        @if($project->formatted_project_date)
+                            <p><strong>Date:</strong> {{ $project->formatted_project_date }}</p>
+                        @endif
+                    </div>
+                    <div class="space32"></div>
+                    <div class="bnt-area1 d-flex gap-2">
+                        <a href="{{ route('project-detail', $project->slug) }}" class="vl-btn1 flex-grow-1 text-center">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="{{ route('contact') }}" class="h-btn1 flex-grow-1 text-center">Contact Us <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
             </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="1200">
-              <div class="pricing-box">
-                  <h3>Universities & Hospitals</h3>
-          <div class="space24"></div>
-                  <h2>50+<span>Projects</span></h2>
-                  <div class="space24"></div>
-                  <p>Steel fabrication and elevator solutions for King Saud University, KAUST, and major hospitals across the Kingdom.</p>
-                  <div class="space24"></div>
-                  <h3>Featured Included:</h3>
-                  <div class="space8"></div>
-                  <ul>
-                      <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g clip-path="url(#clip0_3136_57331)">
-                          <mask id="mask0_3136_57331g" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-                          <path d="M9.9974 18.3346C11.092 18.3361 12.176 18.1212 13.1872 17.7023C14.1985 17.2834 15.117 16.6688 15.8899 15.8938C16.6649 15.1209 17.2795 14.2024 17.6984 13.1911C18.1172 12.1799 18.3322 11.0959 18.3307 10.0013C18.3321 8.90676 18.1172 7.82272 17.6983 6.81149C17.2795 5.80026 16.6649 4.88177 15.8899 4.10881C15.117 3.33382 14.1985 2.71923 13.1872 2.30034C12.176 1.88146 11.092 1.66656 9.9974 1.66798C8.90285 1.66658 7.81881 1.8815 6.80758 2.30038C5.79635 2.71926 4.87786 3.33384 4.1049 4.10881C3.32993 4.88177 2.71535 5.80026 2.29647 6.81149C1.87759 7.82272 1.66267 8.90676 1.66407 10.0013C1.66265 11.0959 1.87756 12.1799 2.29644 13.1911C2.71532 14.2024 3.32991 15.1209 4.1049 15.8938C4.87786 16.6688 5.79635 17.2834 6.80758 17.7022C7.81881 18.1211 8.90285 18.336 9.9974 18.3346Z" fill="white" stroke="white" stroke-width="1.66667" stroke-linejoin="round"/>
-                          <path d="M6.66406 10L9.16406 12.5L14.1641 7.5" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-                          </mask>
-                          <g mask="url(#mask0_3136_57331)">
-                          <path d="M0 0H20V20H0V0Z" fill="#0F0D0D"/>
-                          </g>
-                      </g>
-                      <defs>
-                          <clipPath id="clip0_3136_57331g">
-                          <rect width="20" height="20" fill="white"/>
-                          </clipPath>
-                      </defs>
-                      </svg>High-capacity power manufacturing</li>
-                      <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g clip-path="url(#clip0_3136_57331)">
-                          <mask id="mask0_3136_57331i" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-                          <path d="M9.9974 18.3346C11.092 18.3361 12.176 18.1212 13.1872 17.7023C14.1985 17.2834 15.117 16.6688 15.8899 15.8938C16.6649 15.1209 17.2795 14.2024 17.6984 13.1911C18.1172 12.1799 18.3322 11.0959 18.3307 10.0013C18.3321 8.90676 18.1172 7.82272 17.6983 6.81149C17.2795 5.80026 16.6649 4.88177 15.8899 4.10881C15.117 3.33382 14.1985 2.71923 13.1872 2.30034C12.176 1.88146 11.092 1.66656 9.9974 1.66798C8.90285 1.66658 7.81881 1.8815 6.80758 2.30038C5.79635 2.71926 4.87786 3.33384 4.1049 4.10881C3.32993 4.88177 2.71535 5.80026 2.29647 6.81149C1.87759 7.82272 1.66267 8.90676 1.66407 10.0013C1.66265 11.0959 1.87756 12.1799 2.29644 13.1911C2.71532 14.2024 3.32991 15.1209 4.1049 15.8938C4.87786 16.6688 5.79635 17.2834 6.80758 17.7022C7.81881 18.1211 8.90285 18.336 9.9974 18.3346Z" fill="white" stroke="white" stroke-width="1.66667" stroke-linejoin="round"/>
-                          <path d="M6.66406 10L9.16406 12.5L14.1641 7.5" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-                          </mask>
-                          <g mask="url(#mask0_3136_57331)">
-                          <path d="M0 0H20V20H0V0Z" fill="#0F0D0D"/>
-                          </g>
-                      </g>
-                      <defs>
-                          <clipPath id="clip0_3136_57331i">
-                          <rect width="20" height="20" fill="white"/>
-                          </clipPath>
-                      </defs>
-                      </svg>Custom renewable energy solutions</li>
-                      <li> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g clip-path="url(#clip0_3136_57331)">
-                          <mask id="mask0_3136_57331j" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-                          <path d="M9.9974 18.3346C11.092 18.3361 12.176 18.1212 13.1872 17.7023C14.1985 17.2834 15.117 16.6688 15.8899 15.8938C16.6649 15.1209 17.2795 14.2024 17.6984 13.1911C18.1172 12.1799 18.3322 11.0959 18.3307 10.0013C18.3321 8.90676 18.1172 7.82272 17.6983 6.81149C17.2795 5.80026 16.6649 4.88177 15.8899 4.10881C15.117 3.33382 14.1985 2.71923 13.1872 2.30034C12.176 1.88146 11.092 1.66656 9.9974 1.66798C8.90285 1.66658 7.81881 1.8815 6.80758 2.30038C5.79635 2.71926 4.87786 3.33384 4.1049 4.10881C3.32993 4.88177 2.71535 5.80026 2.29647 6.81149C1.87759 7.82272 1.66267 8.90676 1.66407 10.0013C1.66265 11.0959 1.87756 12.1799 2.29644 13.1911C2.71532 14.2024 3.32991 15.1209 4.1049 15.8938C4.87786 16.6688 5.79635 17.2834 6.80758 17.7022C7.81881 18.1211 8.90285 18.336 9.9974 18.3346Z" fill="white" stroke="white" stroke-width="1.66667" stroke-linejoin="round"/>
-                          <path d="M6.66406 10L9.16406 12.5L14.1641 7.5" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-                          </mask>
-                          <g mask="url(#mask0_3136_57331)">
-                          <path d="M0 0H20V20H0V0Z" fill="#0F0D0D"/>
-                          </g>
-                      </g>
-                      <defs>
-                          <clipPath id="clip0_3136_57331j">
-                          <rect width="20" height="20" fill="white"/>
-                          </clipPath>
-                      </defs>
-                      </svg>Smart grid technology for peak</li>
-                      <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g clip-path="url(#clip0_3136_57331)">
-                          <mask id="mask0_3136_57331k" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-                          <path d="M9.9974 18.3346C11.092 18.3361 12.176 18.1212 13.1872 17.7023C14.1985 17.2834 15.117 16.6688 15.8899 15.8938C16.6649 15.1209 17.2795 14.2024 17.6984 13.1911C18.1172 12.1799 18.3322 11.0959 18.3307 10.0013C18.3321 8.90676 18.1172 7.82272 17.6983 6.81149C17.2795 5.80026 16.6649 4.88177 15.8899 4.10881C15.117 3.33382 14.1985 2.71923 13.1872 2.30034C12.176 1.88146 11.092 1.66656 9.9974 1.66798C8.90285 1.66658 7.81881 1.8815 6.80758 2.30038C5.79635 2.71926 4.87786 3.33384 4.1049 4.10881C3.32993 4.88177 2.71535 5.80026 2.29647 6.81149C1.87759 7.82272 1.66267 8.90676 1.66407 10.0013C1.66265 11.0959 1.87756 12.1799 2.29644 13.1911C2.71532 14.2024 3.32991 15.1209 4.1049 15.8938C4.87786 16.6688 5.79635 17.2834 6.80758 17.7022C7.81881 18.1211 8.90285 18.336 9.9974 18.3346Z" fill="white" stroke="white" stroke-width="1.66667" stroke-linejoin="round"/>
-                          <path d="M6.66406 10L9.16406 12.5L14.1641 7.5" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-                          </mask>
-                          <g mask="url(#mask0_3136_57331)">
-                          <path d="M0 0H20V20H0V0Z" fill="#0F0D0D"/>
-                          </g>
-                      </g>
-                      <defs>
-                          <clipPath id="clip0_3136_57331k">
-                          <rect width="20" height="20" fill="white"/>
-                          </clipPath>
-                      </defs>
-                      </svg>24/7 technical support</li>
-                  </ul>
-                  <div class="space32"></div>
-                  <div class="bnt-area1">
-                      <a href="{{ route('contact') }}" class="vl-btn1">Choose A Plan <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
+        @empty
+            <div class="col-12 text-center">
+                <p>No projects available at the moment. Please check back soon.</p>
             </div>
-          </div>
-        </div>
+        @endforelse
+    </div>
       </div>
     </div>
-<!--===== PRICING AREA ENDS =======-->
+<!--===== PROJECTS AREA ENDS =======-->
 
 <!--===== BLOG AREA STARTS =======-->
 <div class="vl-blog-5-area sp2">

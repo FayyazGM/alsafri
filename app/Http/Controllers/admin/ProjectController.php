@@ -36,6 +36,11 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
+        $request->merge([
+            'is_featured' => $request->boolean('is_featured'),
+            'is_active' => $request->boolean('is_active'),
+        ]);
+
         $request->validate([
             'title' => 'required|string|max:255',
             'description' => 'required|string',
@@ -130,6 +135,11 @@ class ProjectController extends Controller
     public function update(Request $request, $id)
     {
         $project = Project::findOrFail($id);
+
+        $request->merge([
+            'is_featured' => $request->boolean('is_featured'),
+            'is_active' => $request->boolean('is_active'),
+        ]);
 
         $request->validate([
             'title' => 'required|string|max:255',

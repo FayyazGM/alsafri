@@ -22,7 +22,18 @@ class PagesController extends Controller
 
     public function home()
     {
-        return view('public.index');
+        $featuredProjects = Project::active()
+            ->where('is_featured', true)
+            ->ordered()
+            ->take(6)
+            ->get();
+
+        $activeProjects = Project::active()
+            ->ordered()
+            ->take(6)
+            ->get();
+
+        return view('public.index', compact('featuredProjects', 'activeProjects'));
     }
     public function about()
     {

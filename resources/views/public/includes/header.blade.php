@@ -1,5 +1,5 @@
 <!--=====FAB ICON=======-->
-<link rel="shortcut icon" href="{{ asset('assets/img/logo/fav-logo1.png') }}" type="image/x-icon">
+<link rel="icon" href="{{ asset('admin_assets/myimages/logo.png') }}" type="image/png">
     
 <!--===== CSS LINK =======-->
 <link rel="stylesheet" href="{{ asset('assets/css/plugins/bootstrap.min.css') }}">

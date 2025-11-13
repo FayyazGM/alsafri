@@ -164,8 +164,27 @@
                         </div>
                         <div class="col-md-12">
                             <div class="mb-3">
+                                <label class="form-label">Project Features</label>
+                                <div id="addFeaturesWrapper" class="features-wrapper"></div>
+                                <button type="button" class="btn btn-outline-primary btn-sm" id="addFeatureField">
+                                    <i class="ri-add-line align-bottom"></i> Add Feature
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="mb-3">
                                 <label class="form-label">Conclusion</label>
                                 <textarea name="conclusion" class="form-control" rows="3" placeholder="Project Conclusion"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="mb-3">
+                                <label class="form-label">Project Progress</label>
+                                <div id="addProgressWrapper" class="progress-wrapper"></div>
+                                <button type="button" class="btn btn-outline-primary btn-sm" id="addProgressField">
+                                    <i class="ri-add-line align-bottom"></i> Add Progress Item
+                                </button>
+                                <small class="text-muted d-block mt-1">Set progress percentages between 0 and 100.</small>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -295,8 +314,27 @@
                         </div>
                         <div class="col-md-12">
                             <div class="mb-3">
+                                <label class="form-label">Project Features</label>
+                                <div id="editFeaturesWrapper" class="features-wrapper"></div>
+                                <button type="button" class="btn btn-outline-primary btn-sm" id="editFeatureField">
+                                    <i class="ri-add-line align-bottom"></i> Add Feature
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="mb-3">
                                 <label class="form-label">Conclusion</label>
                                 <textarea name="conclusion" id="editProjectConclusion" class="form-control" rows="3" placeholder="Project Conclusion"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="mb-3">
+                                <label class="form-label">Project Progress</label>
+                                <div id="editProgressWrapper" class="progress-wrapper"></div>
+                                <button type="button" class="btn btn-outline-primary btn-sm" id="editProgressField">
+                                    <i class="ri-add-line align-bottom"></i> Add Progress Item
+                                </button>
+                                <small class="text-muted d-block mt-1">Set progress percentages between 0 and 100.</small>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -388,6 +426,111 @@
 @section('custom-js')
 <script>
 $(document).ready(function() {
+    function createFeatureField($wrapper, value = '') {
+        var $group = $('<div class="input-group feature-item mb-2"></div>');
+        var $input = $('<input type="text" name="features[]" class="form-control" placeholder="Enter project feature">').val(value);
+        var $button = $('<button type="button" class="btn btn-outline-danger remove-feature-btn"><i class="ri-close-line"></i></button>');
+        $group.append($input).append($button);
+        $wrapper.append($group);
+    }
+
+    function createProgressField($wrapper, label = '', percentage = '') {
+        var $row = $('<div class="row g-2 align-items-center progress-item mb-2"></div>');
+        var $labelCol = $('<div class="col-md-6 col-12"></div>');
+        var $labelInput = $('<input type="text" name="progress_labels[]" class="form-control" placeholder="Milestone label">').val(label);
+        var $percentageCol = $('<div class="col-md-4 col-8"></div>');
+        var $percentageInput = $('<input type="number" name="progress_percentages[]" class="form-control" placeholder="Percentage" min="0" max="100">').val(percentage);
+        var $buttonCol = $('<div class="col-md-2 col-4"></div>');
+        var $button = $('<button type="button" class="btn btn-outline-danger w-100 remove-progress-btn"><i class="ri-close-line"></i></button>');
+
+        $labelCol.append($labelInput);
+        $percentageCol.append($percentageInput);
+        $buttonCol.append($button);
+        $row.append($labelCol, $percentageCol, $buttonCol);
+        $wrapper.append($row);
+    }
+
+    function ensureFeatureField($wrapper) {
+        if ($wrapper.find('.feature-item').length === 0) {
+            createFeatureField($wrapper);
+        }
+    }
+
+    function ensureProgressField($wrapper) {
+        if ($wrapper.find('.progress-item').length === 0) {
+            createProgressField($wrapper);
+        }
+    }
+
+    function populateFeatureFields($wrapper, items) {
+        $wrapper.empty();
+
+        if (!Array.isArray(items) && typeof items === 'object' && items !== null) {
+            items = Object.values(items);
+        }
+
+        if (Array.isArray(items) && items.length > 0) {
+            items.forEach(function(item) {
+                if (item) {
+                    createFeatureField($wrapper, item);
+                }
+            });
+        }
+
+        ensureFeatureField($wrapper);
+    }
+
+    function populateProgressFields($wrapper, items) {
+        $wrapper.empty();
+
+        if (!Array.isArray(items) && typeof items === 'object' && items !== null) {
+            items = Object.values(items);
+        }
+
+        if (Array.isArray(items) && items.length > 0) {
+            items.forEach(function(item) {
+                if (item) {
+                    var label = item.label || '';
+                    var percentage = item.percentage !== undefined ? item.percentage : '';
+                    createProgressField($wrapper, label, percentage);
+                }
+            });
+        }
+
+        ensureProgressField($wrapper);
+    }
+
+    ensureFeatureField($('#addFeaturesWrapper'));
+    ensureProgressField($('#addProgressWrapper'));
+
+    $('#addFeatureField').on('click', function() {
+        createFeatureField($('#addFeaturesWrapper'));
+    });
+
+    $('#addProgressField').on('click', function() {
+        createProgressField($('#addProgressWrapper'));
+    });
+
+    $('#editFeatureField').on('click', function() {
+        createFeatureField($('#editFeaturesWrapper'));
+    });
+
+    $('#editProgressField').on('click', function() {
+        createProgressField($('#editProgressWrapper'));
+    });
+
+    $(document).on('click', '.remove-feature-btn', function() {
+        var $wrapper = $(this).closest('.features-wrapper');
+        $(this).closest('.feature-item').remove();
+        ensureFeatureField($wrapper);
+    });
+
+    $(document).on('click', '.remove-progress-btn', function() {
+        var $wrapper = $(this).closest('.progress-wrapper');
+        $(this).closest('.progress-item').remove();
+        ensureProgressField($wrapper);
+    });
+
     // Add Project Form Submission
     $('#addProjectForm').on('submit', function(e) {
         e.preventDefault();
@@ -443,6 +586,8 @@ $(document).ready(function() {
         var is_active = $(this).data('is_active');
         var featured_image_url = $(this).data('featured_image_url');
         var secondary_image_url = $(this).data('secondary_image_url');
+        var features = $(this).data('features') || [];
+        var progress_data = $(this).data('progress_data') || [];
 
         $('#editProjectId').val(id);
         $('#editProjectTitle').val(title);
@@ -466,6 +611,9 @@ $(document).ready(function() {
         } else {
             $('#currentSecondaryImage').html('<p class="text-muted">No secondary image</p>');
         }
+
+        populateFeatureFields($('#editFeaturesWrapper'), features);
+        populateProgressFields($('#editProgressWrapper'), progress_data);
     });
 
     // Edit Project Form Submission
