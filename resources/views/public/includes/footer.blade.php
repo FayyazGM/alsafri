@@ -3,10 +3,10 @@
   <div class="container">
     <div class="row">
       <div class="col-xl-12">
-        <div class="cta-bg-area">
-          <img src="{{ asset('assets/img/elements/elements4.png') }}" alt="" class="elements4">
+        <div class="cta-bg-area p-4">
+          {{-- <img src="{{ asset('assets/img/elements/elements4.png') }}" alt="" class="elements4"> --}}
           <div class="row align-items-center">
-            <div class="col-xl-6">
+            <div class="col-xl-12">
               <div class="cta-heading">
                 <h2 data-aos="zoom-in" data-aos-duration="800">Quality Steel Fabrication & Elevator Solutions for Your Projects!</h2>
                 <div class="space16"></div>
@@ -21,12 +21,12 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-1"></div>
+            {{-- <div class="col-xl-1"></div>
               <div class="col-xl-5" data-aos="zoom-in" data-aos-duration="1000">
               <div class="cta-images-area text-end">
-                <img src="{{ asset('assets/img/all-images/cta/cta-img1.png') }}" alt="">
+                <img src="{{ asset('assets/img/all-images/cta/cta-img1.png') }}" alt="" style="visibility: hidden;">
               </div>
-            </div>
+            </div> --}}
           </div>
         </div>
       </div>

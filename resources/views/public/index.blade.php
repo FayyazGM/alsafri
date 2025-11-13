@@ -467,7 +467,7 @@
                 $primaryImage = $project->featured_image_url ?? asset('assets/img/all-images/service/s-img15.png');
             @endphp
             <div class="col-xl-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="1000">
-                <div class="pricing-box {{ $loop->first ? 'active' : '' }}">
+                <div class="pricing-box">
                     <div class="img1 mb-3">
                         <img src="{{ $primaryImage }}" alt="{{ $project->title }}" style="width: 100%; height: 220px; object-fit: cover; border-radius: 12px;">
                     </div>
@@ -506,7 +506,7 @@
                     <div class="space32"></div>
                     <div class="bnt-area1 d-flex gap-2">
                         <a href="{{ route('project-detail', $project->slug) }}" class="vl-btn1 flex-grow-1 text-center">View Project <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="{{ route('contact') }}" class="h-btn1 flex-grow-1 text-center">Contact Us <i class="fa-solid fa-arrow-right"></i></a>
+                        {{-- <a href="{{ route('contact') }}" class="h-btn1 flex-grow-1 text-center">Contact Us <i class="fa-solid fa-arrow-right"></i></a> --}}
                     </div>
                 </div>
             </div>
