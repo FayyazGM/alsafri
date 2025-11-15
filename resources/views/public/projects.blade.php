@@ -4,7 +4,7 @@
 <!--===== HERO AREA STARTS =======-->
 <div class="all-inner-header-area" style="background-image: url({{ asset('assets/img/all-images/bg/hero-bg4.png') }}); background-position: center; background-repeat: no-repeat; background-size: cover;">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center p-5">
             <div class="col-xl-8 col-lg-8">
                 <div class="heading1">
                     <h1>Our Major Projects</h1>
@@ -16,9 +16,9 @@
             <div class="col-xl-4 col-lg-4">
                 <div class="inner-images-area">
                     <img src="{{ asset('assets/img/elements/elements1.png') }}" alt="" class="elements1">
-                    <div class="img1">
+                    {{-- <div class="img1">
                         <img src="{{ asset('assets/img/all-images/hero/hero-img9.png') }}" alt="">
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
