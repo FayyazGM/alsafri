@@ -58,12 +58,20 @@ class PagesController extends Controller
         
         return view('public.project-detail', compact('project', 'relatedProjects'));
     }
-    public function gallery()
+    public function gallery(Request $request)
     {
-        $galleryImages = GalleryImage::active()->ordered()->paginate(9);
+        $selectedCategory = $request->get('category', 'all');
+        
+        $query = GalleryImage::active()->ordered();
+        
+        if ($selectedCategory && $selectedCategory !== 'all') {
+            $query->where('category', $selectedCategory);
+        }
+        
+        $galleryImages = $query->paginate(9)->appends($request->query());
         $categories = GalleryImage::active()->distinct()->pluck('category')->toArray();
         
-        return view('public.gallery', compact('galleryImages', 'categories'));
+        return view('public.gallery', compact('galleryImages', 'categories', 'selectedCategory'));
     }
     public function contact()
     {
