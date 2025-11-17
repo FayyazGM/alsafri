@@ -137,6 +137,74 @@
             }
         }
         
+        // Function to re-initialize testimonial slider
+        function reinitializeTestimonialSlider() {
+            // Wait a bit for Google Translate to finish modifying the DOM
+            setTimeout(function() {
+                // Check if jQuery and Slick are available
+                if (typeof jQuery === 'undefined' || typeof jQuery.fn.slick === 'undefined') {
+                    console.log('jQuery or Slick not available yet, retrying...');
+                    setTimeout(reinitializeTestimonialSlider, 500);
+                    return;
+                }
+                
+                const sliderArea = jQuery('.testimonai3-slider-area');
+                if (sliderArea.length > 0) {
+                    // Check if slider is already initialized
+                    if (sliderArea.hasClass('slick-initialized')) {
+                        // Destroy existing slider
+                        sliderArea.slick('unslick');
+                        console.log('Testimonial slider destroyed');
+                    }
+                    
+                    // Re-initialize the slider
+                    sliderArea.slick({
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        dots: true,
+                        arrows: false,
+                        centerMode: false,
+                        focusOnSelect: true,
+                        loop: true,
+                        autoplay: true,
+                        autoplaySpeed: 2000,
+                        infinite: true,
+                        rtl: document.documentElement.getAttribute('dir') === 'rtl',
+                        responsive: [
+                            {
+                                breakpoint: 1025,
+                                settings: {
+                                    slidesToShow: 2,
+                                    slidesToScroll: 1,
+                                    infinite: true,
+                                }
+                            },
+                            {
+                                breakpoint: 769,
+                                settings: {
+                                    slidesToShow: 2,
+                                    slidesToScroll: 1
+                                }
+                            },
+                            {
+                                breakpoint: 480,
+                                settings: {
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1
+                                }
+                            }
+                        ]
+                    });
+                    console.log('Testimonial slider re-initialized');
+                    
+                    // Ensure slider is visible
+                    sliderArea.css('display', 'block');
+                    sliderArea.css('visibility', 'visible');
+                    sliderArea.css('opacity', '1');
+                }
+            }, 1500);
+        }
+        
         // Apply RTL direction
         function applyRTL() {
             if (!document.documentElement.getAttribute('dir') || document.documentElement.getAttribute('dir') !== 'rtl') {
@@ -145,6 +213,8 @@
                 document.body.classList.add('rtl');
                 document.body.classList.remove('ltr');
                 console.log('RTL direction applied for Arabic');
+                // Re-initialize slider after RTL is applied
+                reinitializeTestimonialSlider();
             }
         }
         
@@ -156,6 +226,8 @@
                 document.body.classList.add('ltr');
                 document.body.classList.remove('rtl');
                 console.log('LTR direction applied for English');
+                // Re-initialize slider after LTR is applied
+                reinitializeTestimonialSlider();
             }
         }
         
@@ -167,12 +239,16 @@
                 document.documentElement.setAttribute('lang', 'ar');
                 document.body.classList.add('rtl');
                 console.log('RTL direction applied for Arabic');
+                // Re-initialize slider after RTL is applied
+                reinitializeTestimonialSlider();
             } else if (element.classList.contains('translated-ltr')) {
                 // English selected - apply LTR styles
                 document.documentElement.setAttribute('dir', 'ltr');
                 document.documentElement.setAttribute('lang', 'en');
                 document.body.classList.remove('rtl');
                 console.log('LTR direction applied for English');
+                // Re-initialize slider after LTR is applied
+                reinitializeTestimonialSlider();
             }
         }
         
@@ -416,6 +492,24 @@
         body[dir="rtl"] .testimonai3-slider-area,
         body[dir="rtl"] .testimonai2-slider-area {
             direction: ltr;
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        /* Ensure slider container is visible in RTL */
+        body[dir="rtl"] .testimonial5 .testimonai3-slider-area {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            height: auto !important;
+            overflow: visible !important;
+        }
+        
+        body[dir="rtl"] .testimonial5 .testimonial3-slider-boxarea {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
         }
     </style>
     
